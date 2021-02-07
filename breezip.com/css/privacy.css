@@ -1,0 +1,9 @@
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+.pw1000{ max-width:1000px; width:92%; margin-left:auto; margin-right:auto;}
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+
+
+.terms_middle h4{font-size:18px; color:#000; line-height:1.6; font-weight:700; margin-bottom:12px;}
+.terms_middle h5{font-size:16px; color:#000; line-height:1.6; margin-bottom:12px;}
+.terms_middle p{ font-size:16px; color:#666666; line-height:1.6; margin-bottom:24px;}
+.terms_middle p>a{ font-size:inherit; color:#536DFE; text-decoration:none;}

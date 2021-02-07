@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,fieldset,input,img{margin:0px;padding:0px;}
+article, aside, figure, footer, header, menu, nav, section, summary{display:block; margin:0; padding:0;}
+html{-webkit-text-size-adjust: none;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{font:normal 12px "open sans", "Lucida Grande", "Lucida Sans Unicode", "Arial";color:#333;}
+ul,ol{list-style:none;}
+ol{padding: 0 0 10px 28px;}
+ol li{ line-height:20px; font-size:14px; margin:6px; color: #444; text-align: left; list-style:decimal;}
+ol li>a{ font-size:inherit;}
+fieldset,img{border:none;}
+input:focus {outline: 0;}
+a{color:#08c;text-decoration:none;hide-focus: expression(this.hideFocus=true); /* for ie 5+ */outline: none; /* for firefox 1.5 + */}
+body{background:#ffffff;}
+img{border:0;}
+.clear {clear:both; height:0;}
+.left {float:left;}
+.right {float:right; }
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+.zoom{*+zoom:1;}
+.zoom:after{content:""; display:block; height:0; clear:both; visibility:hidden;}
+.clear{clear:both;}
+.alc{ text-align:center;}
+.dsb{display:block;}
+.valm{vertical-align:middle;}
+.dsn{display:none;}
+.pta{position:absolute}
+.ptr{ position:relative;}
+.pw980{width:980px; margin-left:auto; margin-right:auto;}
+.pw1120{width:1120px; margin-left:auto; margin-right:auto;}
+.imgstyle{border:1px solid #ccc; border-radius:5px;}
+.nobg{background:none;}
+.o_hide{ overflow:hidden;}
+.white{ color:#fff;}
+
+.ft14{font-size:14px}
+.ft16{font-size:16px}
+.ft18{font-size:18px}
+.ft20{font-size:20px}
+.ft24{font-size:24px}
+.ft28{font-size:28px}
+.ft30{font-size:30px}
+.ft32{font-size:32px}
+.ft36{font-size:36px}
+.ft38{font-size:38px}
+.ft40{font-size:40px}
+.ft42{font-size:42px}
+.ft46{font-size:46px}
+.ft48{font-size:48px}
+.ft50{font-size:50px}
+.ft56{font-size:56px}
+.fthin{ font-weight:300;}
+
+.ulnum{list-style:decimal;padding-left:26px}
+.ulcircle{list-style:disc;padding-left:20px}
+.ulifl li{float:left}
+
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt50{margin-top:50px;}
+.mt60{margin-top:60px;}
+.mt70{margin-top:70px;}
+.mt80{margin-top:80px;}
+.mt90{margin-top:90px;}
+.mt100{margin-top:100px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt50{padding-top:50px;}
+.pt60{padding-top:60px;}
+.pt70{padding-top:70px;}
+.pt100{padding-top:100px;}
+
+/*reset*/
+.breeheader{ width:100%; height:60px; background:#000000;}
+.breeheadefix{width:100%; height:60px; background:#000000; position:fixed; top:0; z-index:5;}
+.breehead-logo,.breehead-download{ height:60px; line-height:60px;}
+.breehead-logo a{ font-size:20px; line-height:1.35; color:#fff; font-weight:600; position:relative;}
+.breehead-logo a:before{ width:32px; height:32px; content:""; display:inline-block; vertical-align:middle; margin:-4px 8px 0 0; background:url(../img/bree-iconsmall.png) top center no-repeat; background-size:cover; z-index:2;}
+.breehead-download a{ width:203px; height:40px; background: #FFA425; border-radius: 4px; display:block; color:#fff; margin-top:10px; position:relative; font-size:16px; font-weight:600; line-height:40px; text-align:center;}
+.breehead-download a:before{ content: "\e900"; font-family: "iconfont"; display:inline-block; vertical-align:middle; margin:-6px 8px 0 0; z-index:2; position:relative; font-size:22px; font-weight:normal;}
+
+.breefooter{ width:100%; background:#000000; text-align:center; padding:5px 0 4px;}
+.breefooter p{ font-size:14px; color:#C4C4C4; line-height:1.8;}
+.breefooter p a{ font-size:inherit; color:inherit; margin:0 20px;}
+.breefooter p a:hover{ color:#fff;} 
+@media screen and (max-width: 980px) {
+.pw980{width:92%;}
+
+}
+
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 568px) {
+
+}
+@media screen and (max-width: 325px) {
+.breehead-download a{ width:170px; font-size:14px;}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min--moz-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:3/2), only screen and (min-device-pixel-ratio:1.5) {
+}
+
+
