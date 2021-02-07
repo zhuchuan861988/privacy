@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title> FilmForth Oneline Guide - How to Use FilmForth</title>
+<meta name="description" content="FilmForth online guide provides the detailed instruction about the features of video editing. And you can get whatever you want while you are making movies with FilmForth." />
+<meta name="keywords" content="filmforth online guide, filmforth, movie maker, video editor">
+<link rel=icon href="https://www.ioforth.com/img/icon.png" sizes=32x32>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical"  href="https://www.ioforth.com/contact.htm">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161445442-1"></script> 
+<script>window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-161445442-1');</script>
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="font/font.css">
+<script src="https://www.ioforth.com/js/analy.js"></script>
+</head>
+<body>
+<header class="zoom infheader"></header>
+
+<div class="contact-box">
+	<h1>Contact</h1>
+    <p>If you have any feedback or an inquiry, please use the form below and we will get back to you</p>
+    <input class="input1">
+    <input class="input2">
+    <textarea class="input3"></textarea>
+    <a class="submit" href="javascript:void(0);">submit</a>
+</div>
+
+
+
+<footer class="inforfoot"></footer>
+
+<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
+<script id=ze-snippet src="https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9transitions-025e10a10428"></script>
+<script type="text/javascript">
+	$(".submit").click(function(){
+		var name = $(".input1").val(),
+			email = $(".input2").val(),
+			comment = $(".input3").val();
+			
+			
+		$.ajax({
+			type:"POST",
+			url:"https://ioforth.zendesk.com/api/v2/requests.json",
+			dataType:"application/json",
+			data: {
+				"name": "Sean Wu",
+				"email": "test@website.com",
+				"comment": "My printer is on fire!"
+			},
+			success:function(data){
+				alert(2)	
+			}
+		})	
+
+	})
+</script>
+</body>
+</html>

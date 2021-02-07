@@ -1,0 +1,9 @@
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+.pw980{ max-width:980px; width:92%; margin-left:auto; margin-right:auto;}
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+
+
+
+@media screen and (max-width: 980px){
+
+}

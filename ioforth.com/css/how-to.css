@@ -1,0 +1,44 @@
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+.pw980{ max-width:980px; width:92%; margin-left:auto; margin-right:auto;}
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+
+
+/*banner*/
+.howto_banner{ width:100%; height:480px; position:relative; overflow:hidden; z-index:1; background:url(../img/howto_banner.jpg) #0c0c0c top center no-repeat; background-size:cover;}
+.howto_bancnt{ margin:145px auto 0; text-align:center;} 
+.howto_bancnt h1{font-weight: 800; font-size: 64px; line-height: 1.6; color: #FFFFFF;}
+.howto_bancnt p{font-size: 20px; line-height: 1.6; color: #FFFFFF; margin-top:20px; }
+
+.howto_box{ margin-bottom:50px;}
+.howto_left{ width:248px; margin-top:20px; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}
+.howto_lf_fix{ width:248px; position:fixed; top:0; z-index:10; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}
+.howto_left h2{ padding:8px 0 8px 24px; font-size: 20px; line-height: 1.6; color: #000000; margin-top:9px; position:relative; cursor:pointer;}
+.howto_left h2 a{ color:inherit; font-size:inherit; font-weight:inherit;}
+.howto_left h2.checked{background: #F2F3F4; font-weight: 800;}
+.howto_left h2.checked:before{ width:4px; height:100%; background:#536DFE; content:""; display:block; left:0; top:0; position:absolute;}
+
+.howto_right{ width:calc(100% - 290px);}
+.howto_type{ display:none;}
+.howto_type.showed{ display:block;}
+.howto_arct{ margin-bottom:24px; }
+.howto_ardes{transition:transform 0.2s linear; position:relative;}
+.howto_ardes:hover{ transform:translateX(8px);}
+.howto_ardes:hover h4{ color:#536DFE;}
+.howto_ardes>a{ position:absolute; left:0; top:0; width:100%; height:100%; z-index:5; display:block;}
+.howto_arct h4{font-weight: 800; font-size: 20px; line-height:1.6; color:#000;}
+.howto_arct p{font-size: 16px; line-height:1.6; color:#000; margin-top:12px;}
+.howto_arct span{font-size: 14px; line-height:1.6; color: #AAA7B2; margin-top:8px; display:block; position:relative;}
+/*.howto_arct span:before{width: 24px; height: 24px; border-radius:24px; background:#C4C4C4; content:""; display:inline-block; vertical-align:middle; margin:-2px 8px 0 0;} */
+.howto_tyct{ display:none; padding-top:20px;}
+.howto_tyct.showed{ display:block;} 
+.howto_choose{ text-align:center; margin:8px auto;}
+.howto_choose a{ width:28px; height:28px; border-radius:28px; border:1px solid #bbbdbf; display:inline-block; margin:20px 5px 0; line-height:28px; font-size:14px; color:#868686; font-weight:bold; text-align:center;}
+.howto_choose a.checked{ background-color:#49a6ff; background:linear-gradient(to right,#3ebfff,#5e8cff); border:none; color:#fff;}
+
+@media screen and (max-width: 980px){
+.howto_banner{ height:auto;}
+.howto_bancnt{ margin-top:40px; margin-bottom:60px;}
+.howto_bancnt h1{ font-size:40px;}
+.howto_left{ display:none;}
+.howto_right{ width:100%; float:none;}
+}

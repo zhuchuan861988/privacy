@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://www.ioforth.com/</loc>
+       <lastmod>2021-01-10T13:41:04+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxmicro.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxwin.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxdl.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxpre.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxnext.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxgor.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-bgimg1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-bgimg2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-bgimg3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-bgimg4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-smimg1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-smimg2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-smimg3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-smimg4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-mus.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse1-penc.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse2-img.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse3-img.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgse3-star.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/gorgimg.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic_img1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic1_img.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic_img2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic2_img.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic_img3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic3_img.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic4_img1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic4_img2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxtopic4_img3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxfrom_ico1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxfrom_ico2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/idxfrom_ico3.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/filmforth/</loc>
+       <lastmod>2020-12-16T09:48:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_banico1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_banmic.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_banstar.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_banimg1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_banuni.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_bananil1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_bananil2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_story.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_crea1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_crea2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_crea3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_crea4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico5.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico6.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico7.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico8.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico9.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico10.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico11.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_feaico12.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_start1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_start2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/filmforth/img/filmhome_img.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/free-youtube-video-editors.htm</loc>
+       <lastmod>2020-12-24T04:03:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/filmforth-overview.png</image:loc>
+         <image:caption>Start FilmForth on Computer</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-2.jpg</image:loc>
+         <image:caption>Add Media to FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-3.jpg</image:loc>
+         <image:caption>Editing With FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-4.jpg</image:loc>
+         <image:caption>Exporting the Output File</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-5-1.jpg</image:loc>
+         <image:caption>DaVinci Resolve</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-6.jpg</image:loc>
+         <image:caption>iMovie</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-7.jpg</image:loc>
+         <image:caption>Wondershare Filmora 9</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-8.jpg</image:loc>
+         <image:caption>Final Cut Pro X</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-9.jpg</image:loc>
+         <image:caption>Animoto</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/wordpress/wp-content/uploads/2020/10/free-youtube-video-editor-10.jpg</image:loc>
+         <image:caption>Lightworks 14</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/greene.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/arrowtop.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/support.htm</loc>
+       <lastmod>2020-12-04T14:57:52+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_search.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_tips.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_tutorial.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_ff.jpg</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_ytpic.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/support_fb.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/make-a-slideshow.htm</loc>
+       <lastmod>2020-12-24T04:03:27+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/filmforth-overview.png</image:loc>
+         <image:caption>FilmForth Overview</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-1.jpg</image:loc>
+         <image:caption>Color and Exposure Corrected, and Image Re-cropped</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-2.jpg</image:loc>
+         <image:caption>A New Object Added to FilmForth.</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-3.jpg</image:loc>
+         <image:caption>Changing duration in FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-4.jpg</image:loc>
+         <image:caption>Using transitions in FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-5.jpg</image:loc>
+         <image:caption>Add Audio from the FilmForth Library</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-6.jpg</image:loc>
+         <image:caption>Adding Your Own Audio File</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-7.jpg</image:loc>
+         <image:caption>The Voiceover Recording Process in FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-8.jpg</image:loc>
+         <image:caption>Adding Text in FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-a-slideshow-9.jpg</image:loc>
+         <image:caption>Exporting the Finished Video from FilmForth</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-remove-voice-from-video.htm</loc>
+       <lastmod>2020-12-24T04:03:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-1.png</image:loc>
+         <image:caption>Select New Video Project</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-2.png</image:loc>
+         <image:caption>Project Library</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-3.png</image:loc>
+         <image:caption>Remove the Sound</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/create-a-new-project.png</image:loc>
+         <image:caption>Create A New Project</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-video-photo.png</image:loc>
+         <image:caption>Add Video/Photo Clips</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-4.png</image:loc>
+         <image:caption>Select Detach Audio</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-5.png</image:loc>
+         <image:caption>Delete the Audio</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-6.png</image:loc>
+         <image:caption>Save New Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-remove-voice-from-video-7.png</image:loc>
+         <image:caption>Remove Voice on Android Device</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-add-effects-to-videos.htm</loc>
+       <lastmod>2020-12-24T04:03:35+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-add-effects-to-videos-1.png</image:loc>
+         <image:caption>Create a New Project</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-add-effects-to-videos-2.png</image:loc>
+         <image:caption>Start to Edit the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-add-effects-to-videos-3.png</image:loc>
+         <image:caption>Choose Effects You Like to the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-add-effects-to-videos-4.png</image:loc>
+         <image:caption>Exporting the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/filmicon.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-rotate-a-video.htm</loc>
+       <lastmod>2020-12-24T04:03:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/micordl.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-rotate-a-video-2.jpg</image:loc>
+         <image:caption>Click on Edit to Start to Rotate the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-rotate-a-video-3.jpg</image:loc>
+         <image:caption>Click on Rotate to Rotate the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-rotate-a-video-5.jpg</image:loc>
+         <image:caption>Click on Save Video to Export Video</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/support/windows-movie-maker-alternative.htm</loc>
+       <lastmod>2021-01-04T01:42:08+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/windows-movie-maker-alternative-1.png</image:loc>
+         <image:caption>Windows Movie Maker Alternatives</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/microsoft-photos.png</image:loc>
+         <image:caption>Microsoft Photos</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/camtasia.jpg</image:loc>
+         <image:caption>Camtasia</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/adobe-premiere-pro.png</image:loc>
+         <image:caption>Adobe Premiere Pro</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/shotcut.png</image:loc>
+         <image:caption>Shotcut</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/filmora.jpg</image:loc>
+         <image:caption>Wondershare Filmora</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/vdsc.jpg</image:loc>
+         <image:caption>VDSC</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/davinci-resolve.jpg</image:loc>
+         <image:caption>DaVinci Resolve</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/openshot.jpg</image:loc>
+         <image:caption>OpenShot</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/support/img/vegas-pro.jpg</image:loc>
+         <image:caption>Vegas Pro</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/filmforth/guide.htm</loc>
+       <lastmod>2021-01-10T15:28:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide1-1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide2-1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide2-2.jpg</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide2-3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide3-1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide3-2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide3-3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide3-4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide4-1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide4-2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide4-3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide5-1.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide5-2.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide6-3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide6-4.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide6-5.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide7-3.png</image:loc>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/img/guide7-4.png</image:loc>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-make-a-demo-video.htm</loc>
+       <lastmod>2020-12-30T14:51:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-make-a-demo-video-1.png</image:loc>
+         <image:caption>How to Make A Demo Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-make-a-demo-video-2.png</image:loc>
+         <image:caption>Planning Video Content</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/triming-video.jpg</image:loc>
+         <image:caption>How to Trim, split, or Combine Videos</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-transition.jpg</image:loc>
+         <image:caption>Add Transitions to A Video on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-audio.jpg</image:loc>
+         <image:caption>How to Add Audio to a Video on FilmForth</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/video-editor-transitions.htm</loc>
+       <lastmod>2021-01-07T14:50:54+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/video-transition-effect.gif</image:loc>
+         <image:caption>Transition Effects Example</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/video-editor-transitions-1.png</image:loc>
+         <image:caption>Click New Project to Start</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/video-editor-transitions-2.png</image:loc>
+         <image:caption>Tap Create on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/video-editor-transitions-3.png</image:loc>
+         <image:caption>Add Photos/Video Clips on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/position-where-you-want-to-cut.png</image:loc>
+         <image:caption>Put the Yellow Marker to Where You Want to Cut</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/split-the-file.png</image:loc>
+         <image:caption>Split the File on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/divide-the-file-into-two-parts.png</image:loc>
+         <image:caption>Divide the File into Two Parts</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/tap-white-square.png</image:loc>
+         <image:caption>Tap the White Square on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/choose-transition-effect.png</image:loc>
+         <image:caption>Choose the Transition Effects You Want on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/save-file.png</image:loc>
+         <image:caption>Export the File</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/convert-video/how-to-convert-hevc-files.htm</loc>
+       <lastmod>2020-12-21T15:05:22+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/convert-video/img/hevc-video-extensions.png</image:loc>
+         <image:caption>HEVC Video Extensions</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/convert-video/img/how-to-add-effects-to-videos-1.png</image:loc>
+         <image:caption>Create a New Project</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/convert-video/img/add-video-photo.png</image:loc>
+         <image:caption>Add Video/Photo Clips</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/convert-video/img/how-to-add-effects-to-videos-4.png</image:loc>
+         <image:caption>Exporting the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/convert-video/img/hevc-mp4.png</image:loc>
+         <image:caption>How to Convert HEVC to MP4</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-speed-up-a-video.htm</loc>
+       <lastmod>2020-12-24T04:03:24+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-speed-up-a-video-1-1.png</image:loc>
+         <image:caption>How to Speed up A Video on Windows 10</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-speed-up-a-video-2.png</image:loc>
+         <image:caption>How to Speed up A Video on Windows 10 with FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-speed-up-a-video-3.png</image:loc>
+         <image:caption>How to Speed up A Video on Windows 10 with FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-speed-up-a-video-4.png</image:loc>
+         <image:caption>Save Video on FilmForth</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/the-greatest-meme-maker-on-windows.htm</loc>
+       <lastmod>2020-12-24T04:03:28+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-237x300.jpg</image:loc>
+         <image:caption>Chuck Norris</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-2.jpg</image:loc>
+         <image:caption>[IMGFLIP]</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-3.jpg</image:loc>
+         <image:caption>[KAPWING]</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-4.jpg</image:loc>
+         <image:caption>[ENTERMEME]</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-1.png</image:loc>
+         <image:caption>FilmForth - Video Editor</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-5.png</image:loc>
+         <image:caption>Add Audio from Computer</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-6.png</image:loc>
+         <image:caption>Change the Volume with FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-7.png</image:loc>
+         <image:caption>Add Picture in Picture with FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-9.png</image:loc>
+         <image:caption>Type in the Text</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-12.png</image:loc>
+         <image:caption>Saving the Video</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/the-greatest-meme-maker-on-windows-11.png</image:loc>
+         <image:caption>Select the Export Location</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/memo-generator.png</image:loc>
+         <image:caption>Meme Generator</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/memo-generator-suite.png</image:loc>
+         <image:caption>Meme Generator Suite</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-trim-videos-on-windows.htm</loc>
+       <lastmod>2020-12-24T04:03:25+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/1-new-project.jpg</image:loc>
+         <image:caption>New Project</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/3-default-timeline.jpg</image:loc>
+         <image:caption>Default Timeline</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/4-go-edit-trim.jpg</image:loc>
+         <image:caption>Trim Button on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/5-filmforth-trim-menu.jpg</image:loc>
+         <image:caption>FilmForth Tirm Menu</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/6-split-1.jpg</image:loc>
+         <image:caption>Split on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/7-divided-into-2.jpg</image:loc>
+         <image:caption>Split Video with FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/8-position-marker-and-then-split.jpg</image:loc>
+         <image:caption>Position Marker and Split</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/9-select-2nd-clip-and-trim.jpg</image:loc>
+         <image:caption>Select Second Clip and Trim</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/10-drag-start-bar.jpg</image:loc>
+         <image:caption>Drag the Start Bar</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-trim-videos-on-windows-1.jpg</image:loc>
+         <image:caption>How to Trim Video on Windows</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/12-photos-trim-menur.jpg</image:loc>
+         <image:caption>Photos Trim Menur</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/best-gaming-video-editing-software.htm</loc>
+       <lastmod>2020-12-30T05:46:02+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/openshot.png</image:loc>
+         <image:caption>OpenShot</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/losslesscut.png</image:loc>
+         <image:caption>LosslessCut</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/shotcut-1.png</image:loc>
+         <image:caption>Shotcut</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/olive.png</image:loc>
+         <image:caption>Olive</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/adobepremierpro.png</image:loc>
+         <image:caption>Adobe Premiere Pro</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/finalcutpro.jpg</image:loc>
+         <image:caption>Final Cut Pro X</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/corelvisualstudio.jpg</image:loc>
+         <image:caption>Corel VideoStudio</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/powerdirector.jpg</image:loc>
+         <image:caption>CyberLink PowerDirector</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/pinncalestudio.png</image:loc>
+         <image:caption>Pinnacle Studio 24</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-increase-video-volume.htm</loc>
+       <lastmod>2020-12-24T04:03:35+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/drag-volume-bar-to-mute-video.png</image:loc>
+         <image:caption>Drag the Volume Bar to Change the Video Volume</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-audio-to-the-video-on-filmforth-1.png</image:loc>
+         <image:caption>How to Add Audio to the Video on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/trim-the-audio.png</image:loc>
+         <image:caption>How to Trim the Audio on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/drag-the-start-bar-1.png</image:loc>
+         <image:caption>Change the Start-up of An Audio on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/trim-audio-file-starts-and-ends.png</image:loc>
+         <image:caption>Trim the Audio Starts and Ends</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/split-the-audio.png</image:loc>
+         <image:caption>Split the Audio on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/duplicate-the-audio.png</image:loc>
+         <image:caption>Duplicate the Audio on FilmForth</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/voice-recorder-for-pc.htm</loc>
+       <lastmod>2020-12-24T04:03:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/filmforth-how-to-add-audio.jpg</image:loc>
+         <image:caption>Click on the Audio to Start Audio Recording</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/filmforth-how-to-record-audio.jpg</image:loc>
+         <image:caption>Start to Audio Record via FilmForth on Windows 10</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/allow-to-use-the-microphone.jpg</image:loc>
+         <image:caption>Allow to Use the Microphone</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/adding-voice-over.jpg</image:loc>
+         <image:caption>Adding Voice Over</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/photo-to-video-converter.htm</loc>
+       <lastmod>2020-12-24T04:03:30+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-photos-to-filmforth.png</image:loc>
+         <image:caption>Add Photos to FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-effects-on-photos.png</image:loc>
+         <image:caption>Add Effects to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/choose-effect-on-photos.png</image:loc>
+         <image:caption>Choose Effects to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-transition-to-photos.png</image:loc>
+         <image:caption>Add Transitions to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/select-transitions-to-photos.png</image:loc>
+         <image:caption>Select Transitions to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-text-to-photos.png</image:loc>
+         <image:caption>Add Text to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/add-background-music-to-photos.png</image:loc>
+         <image:caption>Add Background Music to Photos on FilmForth</image:caption>
+       </image:image>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/save-video.png</image:loc>
+         <image:caption>Save and export your videos via FilmForth</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-make-a-vlog.htm</loc>
+       <lastmod>2021-01-02T14:41:09+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/how-to-make-a-vlog-1.png</image:loc>
+         <image:caption>How to Make A Vlog</image:caption>
+       </image:image>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/create-funny-videos-step-by-step.htm</loc>
+       <lastmod>2020-12-24T04:03:31+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <image:image>
+         <image:loc>https://www.ioforth.com/video-editor/img/make-funny-videos.png</image:loc>
+         <image:caption>Save the Funny Video</image:caption>
+       </image:image>
+  </url>
+</urlset>
