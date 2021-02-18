@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/article.css">
+<link rel="stylesheet" type="text/css" href="css/cmsstyle.css">
+<meta name="robots" content="noindex,nofollow">
+<script src="https://www.ioforth.com/js/analy.js"></script>
+</head>
+<body>
+<div class="cmscon">
+  <div class="cmscon_left">
+    <ul class="mt40">
+      <li class="checked"><a href="#a1">基础样式</a>
+        <dl>
+          <dt><a href="#a1">加粗</a></dt>
+          <dt><a href="#a2">斜体</a></dt>
+          <dt><a href="#a3">居中对齐</a></dt>
+          <dt><a href="#a4">居右对齐</a></dt>
+          <dt><a href="#a8">步骤标题</a></dt>
+          <dt><a href="#a9">链接新页面打开</a></dt>
+          <dt><a href="#a10">链接加title</a></dt>
+          <dt><a href="#a12">侧边导航</a></dt>
+          <dt><a href="#a13">侧边导航默认展开</a></dt>
+        </dl>
+      </li>
+      <li><a href="#b1">特殊样式</a>
+        <dl>
+          <dt><a href="#b3">tip样式</a></dt>
+          <dt><a href="#ba3">note样式4</a></dt>
+          <dt><a href="#b18">插入iframe视频(有结果)</a></dt>
+        </dl>
+      </li>
+      <li><a href="#d1">分设备特殊样式</a>
+        <dl>
+          <dt><a href="#d1">pc端隐藏，移动端显示</a></dt>
+          <dt><a href="#d2">pc端显示，移动端隐藏</a></dt>
+        </dl>
+      </li>
+      <li><a href="#e1">banner版式文章样式</a>
+        <dl>
+          <dt><a href="#e3">下载框</a></dt>
+          <dt><a href="#e6">推荐文章</a></dt>
+        </dl>
+      </li>
+    </ul>
+  </div>
+  <div class="cmscon_mid" ng-app=""> <a id="a1"></a>
+    <div class="cmscon_mid_con">
+      <h2 class="cmscon_mid_con_h2">字体加粗</h2>
+      <textarea data-class="ftb" class="ftb cmscon_mid_con_area cmscon_mid_con_area_view">{{basic1}}</textarea>
+      <textarea class="cmscon_mid_con_area" ng-model="basic1"></textarea>
+      <textarea class="codediv"><p class="ftb">{{basic1}}</p>
+</textarea>
+      <p class="cmsredp"></p>
+      <p class="cmsbutton"></p>
+    </div>
+    <a id="a2"></a>
+    <div class="cmscon_mid_con">
+      <h2 class="cmscon_mid_con_h2">字体倾斜</h2>
+      <textarea data-class="italic" class="italic cmscon_mid_con_area cmscon_mid_con_area_view">{{basic2}}</textarea>
+      <textarea ng-model="basic2" class="cmscon_mid_con_area"></textarea>
+      <textarea class="codediv" id="codediv"><p class="italic">{{basic2}}</p>
+</textarea>
+      <p class="cmsredp"></p>
+      <p class="cmsbutton"></p>
+    </div>
+    <a id="a3"></a>
+    <div class="cmscon_mid_con">
+    <h2 class="cmscon_mid_con_h2">居中对齐</h2>
+    <textarea data-class="alc" class="alc cmscon_mid_con_area cmscon_mid_con_area_view">{{basic3}}</textarea>
+    <textarea ng-model="basic3" class="cmscon_mid_con_area"></textarea>
+    <textarea class="codediv"><div class="alc"><p>{{basic3}}</p></div>
+</textarea>
+    <p class="cmsredp"></p>
+    <p class="cmsbutton"></p>
+  </div>
+  <a id="a4"></a>
+  <div class="cmscon_mid_con">
+  <h2 class="cmscon_mid_con_h2">居右对齐</h2>
+  <textarea data-class="alr" class="alr cmscon_mid_con_area cmscon_mid_con_area_view">{{basic4}}</textarea>
+  <textarea ng-model="basic4" class="cmscon_mid_con_area"></textarea>
+  <textarea class="codediv"><div class="alr"><p>{{basic4}}</p></div>
+</textarea>
+  <p class="cmsredp"></p>
+  <p class="cmsbutton"></p>
+</div>
+<a id="a8"></a>
+<div class="cmscon_mid_con">
+  <h2 class="cmscon_mid_con_h2">步骤标题</h2>
+  <textarea data-class="step_style" class="step_style cmscon_mid_con_area cmscon_mid_con_area_view ftb ft16" style="width: 708px;">{{basic8}}</textarea>
+  <textarea ng-model="basic8" class="cmscon_mid_con_area"></textarea>
+  <textarea class="codediv"><h2 class="step_style">{{basic8}}</h2>
+</textarea>
+  <p class="cmsredp"></p>
+  <p class="cmsbutton"></p>
+</div>
+<a id="a9"></a>
+<div class="cmscon_mid_con">
+  <h2 class="cmscon_mid_con_h2">链接新页面打开，加nofollow</h2>
+  <textarea class="cmscon_mid_con_area cmscon_mid_con_area_view ftb ft16" style="width: 723px;">{{basic9}}</textarea>
+  <textarea ng-model="basic9" class="cmscon_mid_con_area"></textarea>
+  <textarea ng-model="basic9s" class="cmscon_mid_con_area" placeholder="此处输入链接"></textarea>
+  <textarea class="codediv"><p><a href="{{basic9s}}" target="_blank" rel="nofollow">{{basic9}}</a></p>
+</textarea>
+  <p class="cmsredp"></p>
+  <p class="cmsbutton"></p>
+</div>
+<a id="a10"></a>
+<div class="cmscon_mid_con">
+  <h2 class="cmscon_mid_con_h2">链接加title</h2>
+  <textarea class="cmscon_mid_con_area cmscon_mid_con_area_view ftb ft16" style="width: 723px;">{{basic10}}</textarea>
+  <textarea ng-model="basic10" class="cmscon_mid_con_area"></textarea>
+  <textarea ng-model="basic10s" class="cmscon_mid_con_area" placeholder="此处输入链接"></textarea>
+  <textarea ng-model="basic10s2" class="cmscon_mid_con_area" placeholder="此处输入title"></textarea>
+  <textarea class="codediv"><p><a href="{{basic10s}}" title="{{basic10s2}}">{{basic10}}</a></p>
+</textarea>
+  <p class="cmsredp"></p>
+  <p class="cmsbutton"></p>
+</div>
+<a id="a12"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">侧边导航</h2>
+<div data-class="button_spare" class="cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="onlypc navaside"><i></i>
+    <h4>导航标题</h4>
+    <ul class="tsel">
+      <h5>分类标题</h5>
+      <li><a href="链接">文章标题</a></li>
+      <li class="asel"><a href="链接">文章标题</a></li>
+    </ul>
+    <ul>
+      <h5>分类标题</h5>
+      <li><a href="链接">文章标题</a></li>
+      <li><a href="链接">文章标题</a></li>
+    </ul>
+  </div>
+</div>
+<textarea class="codediv"><div class="onlypc navaside"><div class="asdarop"></div>
+		<h4>导航标题</h4>
+		<div> <h5>分类标题</h5> <ul><li><a href="链接">文章标题</a></li> <li><a href="链接">文章标题</a></li> </ul></div>
+		<div> <h5>分类标题</h5> <ul><li><a href="链接">文章标题</a></li> <li><a href="链接">文章标题</a> </li></ul></div>
+	</div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="a13"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">侧边导航默认展开</h2>
+<div data-class="button_spare" class="cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="onlypc navaside navaside_switch"><i></i>
+    <h4>导航标题</h4>
+    <div class="tsel">
+      <ul class="dsbul">
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+        <li><a href="链接">文章标题</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<textarea class="codediv"><div class="onlypc navaside navaside_switch"><div class="asdarop"></div>
+		<h4>导航标题</h4>
+		<div class="tsel">
+<ul class="dsbul">
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+<li><a href="链接">文章标题</a></li>
+</ul>
+</div>
+	</div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="b3"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">tip样式</h2>
+<textarea data-class="green_border" class="green_border cmscon_mid_con_area cmscon_mid_con_area_view" style="width: 637px;">{{tip3}}</textarea>
+<textarea ng-model="tip3" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="green_border"><p>{{tip3}}</p></div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="ba3"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">note样式</h2>
+<div data-class="note_style_cms4" class="note_style cmscon_mid_con_area cmscon_mid_con_area_view" style="width: 688px;">
+  <p>{{tipa2}}</p>
+</div>
+<textarea ng-model="tipa2" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="note_style"><p>{{tipa2}}</p></div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="b18"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">插入iframe视频（有结果）</h2>
+<div data-class="iframe_video2" class="iframe_video2 cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="iframe_video2">{{tip18}}</div>
+</div>
+<textarea ng-model="tip18" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="iframe_video2">{{tip18}}</div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="d1"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">pc端隐藏，移动端显示</h2>
+<textarea class="cmscon_mid_con_area cmscon_mid_con_area_view ftb ft16" style="width: 723px;">{{splink3}}</textarea>
+<textarea ng-model="splink3" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="onlymo"><p>{{splink3}}</p></div>
+</textarea>
+<p class="ft16"><b>备注</b>：该部分内容只在移动端显示，pc端会隐藏</p>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="d2"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">pc端显示，移动端隐藏</h2>
+<textarea class="cmscon_mid_con_area cmscon_mid_con_area_view ftb ft16" style="width: 723px;">{{splink4}}</textarea>
+<textarea ng-model="splink4" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="onlypc"><p>{{splink4}}</p></div>
+</textarea>
+<p class="ft16"><b>备注</b>：该部分内容只在pc端显示，移动端会隐藏</p>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="e3"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">下载框</h2>
+<div class="cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="spcicl">
+    <div class="spcicl_text">
+      <h3><a href="链接">链接</a></h3>
+      <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+    </div>
+    <div class="spcicl_btn">
+      <p><a href="链接">Free Download</a></p>
+    </div>
+  </div>
+</div>
+<textarea class="codediv">
+        	<div class="spcicl">
+        	<div class="spcicl_text">
+            	<h3><a href="链接">链接</a></h3>
+                <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+            </div>
+            <div class="spcicl_btn"><p><a href="链接">Free Download</a></p></div>
+        </div>
+        </textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+<a id="e6"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">推荐文章</h2>
+<div class="cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="zoom rsclm_recommen">
+    <h2>More Related Articles</h2>
+    <ul>
+      <li><a href="链接">链接 &gt;</a></li>
+      <li><a href="链接">链接 &gt;</a></li>
+      <li><a href="链接">链接 &gt;</a></li>
+      <li><a href="链接">链接 &gt;</a></li>
+      <li><a href="链接">链接 &gt;</a></li>
+    </ul>
+  </div>
+</div>
+<textarea class="codediv">
+   <div class="zoom rsclm_recommen">
+        <h2>More Related Articles</h2>
+        <ul>
+          <li><a href="链接">链接 &gt;</a></li>
+          <li><a href="链接">链接 &gt;</a></li>
+          <li><a href="链接">链接 &gt;</a></li>
+          <li><a href="链接">链接 &gt;</a></li>
+          <li><a href="链接">链接 &gt;</a></li>
+        </ul>
+      </div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
+<script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+$(".cmscon_left>ul>li>a").prepend($("<span></span>"));
+$(".cmscon_left>ul>li>dl>dt>a").prepend($("<em></em>"));
+$(".cmscon_left>ul>li>a").click(function(){
+	 $(this).parent().toggleClass("checked");
+})
+$("textarea").attr({"type":"text"});
+$(".cmscon_mid_con>textarea:nth-of-type(1)").attr({"placeholder":"请在下方输入框内添加此处内容"});
+$(".cmscon_mid_con>textarea:nth-of-type(2)").attr({"placeholder":"在此处输入你想显示的内容"});
+$(".cmsredp").html('<b>提示:</b>点击下面按钮，复制样式');
+$(".cmsbutton").html('<a href="javascript:void(0)">Copy the code</a>');
+})
+</script> 
+<script type="text/javascript">
+	$(".cmsbutton").each(function(i){
+		$(".cmsbutton").eq(i).click(function(){			    		    
+		    var e=$(".codediv").eq(i);
+            e.select(); 
+            document.execCommand("Copy");
+            alert("你已复制当前内容，请粘贴");
+		})
+		
+	})
+	
+	
+</script> 
+<script>
+var autoTextarea = function (elem, extra, maxHeight) {
+        extra = extra || 0;
+        var isFirefox = !!document.getBoxObjectFor || 'mozInnerScreenX' in window,
+        isOpera = !!window.opera && !!window.opera.toString().indexOf('Opera'),
+                addEvent = function (type, callback) {
+                        elem.addEventListener ?
+                                elem.addEventListener(type, callback, false) :
+                                elem.attachEvent('on' + type, callback);
+                },
+                getStyle = elem.currentStyle ? function (name) {
+                        var val = elem.currentStyle[name];
+                        
+                        if (name === 'height' && val.search(/px/i) !== 1) {
+                                var rect = elem.getBoundingClientRect();
+                                return rect.bottom - rect.top -
+                                        parseFloat(getStyle('paddingTop')) -
+                                        parseFloat(getStyle('paddingBottom')) + 'px';        
+                        };
+                        
+                        return val;
+                } : function (name) {
+                                return getComputedStyle(elem, null)[name];
+                },
+                minHeight = parseFloat(getStyle('height'));
+        
+        
+        elem.style.resize = 'none';
+        
+        var change = function () {
+                var scrollTop, height,
+                        padding = 0,
+                        style = elem.style;
+                
+                if (elem._length === elem.value.length) return;
+                elem._length = elem.value.length;
+                
+                if (!isFirefox && !isOpera) {
+                        padding = parseInt(getStyle('paddingTop')) + parseInt(getStyle('paddingBottom'));
+                };
+                scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+                
+                elem.style.height = minHeight + 'px';
+                if (elem.scrollHeight > minHeight) {
+                        if (maxHeight && elem.scrollHeight > maxHeight) {
+                                height = maxHeight - padding;
+                                style.overflowY = 'auto';
+                        } else {
+                                height = elem.scrollHeight - padding;
+                                style.overflowY = 'hidden';
+                        };
+                        style.height = height + extra + 'px';
+                        scrollTop += parseInt(style.height) - elem.currHeight;
+                        document.body.scrollTop = scrollTop;
+                        document.documentElement.scrollTop = scrollTop;
+                        elem.currHeight = parseInt(style.height);
+                };
+        };
+        
+        addEvent('propertychange', change);
+        addEvent('input', change);
+        addEvent('focus', change);
+		addEvent('textarea', change);
+		addEvent('max-height', change);
+        change();
+};
+</script> 
+<script> 
+		var text = document.getElementsByClassName("cmscon_mid_con_area");	
+		for(var i=0;i<text.length;i++) {
+			autoTextarea(text[i]);
+        }  
+		
+		
+</script>
+</body>
+</html>

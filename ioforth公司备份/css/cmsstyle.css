@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.red{ color:red;}
+/*2017-11-20 cms*/
+.cmscon_left{ width: 290px; height:100%; background:#e8e5e5; overflow:hidden; position:fixed; top:0; left:0; z-index: 999;}
+.cmscon_left_logo{ margin:40px auto;}
+.cmscon_left>ul{ margin-left:40px; list-style:none;}
+.cmscon_left>ul>li{ padding-left:16px; cursor:pointer; line-height:38px;}
+.cmscon_left>ul>li>a{font-size:18px; color:#666666;}
+.cmscon_left>ul>li>a>span{ width:12px; height:12px; display:inline-block; background-size:12px 12px; background:url(../img/symbol.png) no-repeat left top;  margin-right:14px;}
+.cmscon_left>ul>li.checked>a>span{background-position:0 -12px;}
+.cmscon_left>ul>li>dl{ display:none; padding-left:25px;}
+.cmscon_left>ul>li.checked dl{ display:block;}
+.cmscon_left>ul>li>dl>dt{ line-height:28px;}
+.cmscon_left>ul>li>dl>dt>a{ font-size:16px; color:#666666;}
+.cmscon_left>ul>li>dl>dt>a:hover{ color:#3997fd;}
+.cmscon_left>ul>li>dl>dt>a>em{ width:12px; height:13px; display:inline-block; background-size:12px 13px; background:url(../img/bookmark.png) no-repeat left top; margin-right:10px;}
+.cmscon_left>ul>li>dl>dt>a:hover em{background-position:0 -13px;}
+
+.cmscon_mid{ width:730px; margin:50px auto 0;}
+.cmscon_mid_con{ padding:80px 0; border-bottom:1px solid #999999;}
+.cmscon_mid_con_h2{ font-size:22px; color:#000; font-weight:bold; margin: 20px 0;}
+.cmscon_mid_con_area,.cmsredp,.cmsbutton{ margin-top:20px;}
+.cmscon_mid_con_h3{ font-size:16px; color:#666666; font-weight:bold; margin-top:20px;}
+.cmscon_mid_con_area{ width:724px; min-height:80px; max-height:800px; overflow: hidden; outline: 0 none; display:block;resize:none; }
+.cmscon_mid_con_area_tip1{ border:none; width:650px; margin-top:0;}
+.cmsredp{ color:#900b09; font-size: 14px;}
+.cmsbutton{ width:170px; height:40px; background:linear-gradient(to bottom,#30bcfe,#3996fd); border-radius:5px;}
+.cmsbutton>a{ display:block; width:170px; height:40px; font-size:16px; text-align:center; line-height:40px; color:#FFF; font-weight:bold; text-decoration:none;}
+.codediv{ width: 0px; height: 0px; opacity:0;}
+
+.navul,.navol{padding:10px; margin:20px 0; background-color:#f4f9f0;}
+.navol:after{content:""; display:block; height:0; clear:both; visibility:hidden;}
+.navul li,.navol li{margin:5px 15px; font-size:14px; color:#6fa549;}
+.navul a:before{content:""; display:inline-block; width:0; height:0; border:6px solid transparent; border-left-color:#6fa549; vertical-align:middle; position:relative; top:-2px;}
+.navul a,.navol a{font-size:inherit; color:inherit;}
+.navhalf li{display:inline-block; width:40%;}
+.navolhalf li{width:45%; float:left;}
+.navol ol{padding-left:20px;}
+
+/*2018-12-04*/
+.iframe_video{position: relative; max-width:100%; height:auto; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.1); overflow:hidden;}
+.iframe_video iframe{max-width: 92%; max-height: 100%; margin:30px auto; display:block;}
+
+/*2018-12-13*/
+.button_spare>p{ margin:10px 0;}
+.button_spare a{width: 200px; height:53px; border-radius:5px; background:#2b2b2b; display: inline-block; vertical-align: top; margin:10px 10px 10px 0; position:relative; text-decoration:none;}
+.button_spare a:hover{ text-decoration:none;}
+.button_spare a:before{ content:""; display:block; position:absolute; width:33px; height:33px; margin:10px 13px 0 22px;}
+.button_spare a.dl_ggplay:before{ background:url(https://imobie-resource.com/en/support/img/dl_googleplay.png) left center; background-size:cover;}
+.button_spare a.dl_appstore:before{ background:url(https://imobie-resource.com/en/support/img/dl_appstore.png) left center; background-size:cover;}
+.button_spare a.dl_apk:before{ background:url(https://imobie-resource.com/en/support/img/dl_apk.png) left center; background-size:cover;}
+.button_spare a em{ display:block; color:rgba(255,255,255,0.9); font-size:14px; padding:9px 0 2px 70px; line-height:1; text-align:left; font-style:normal;}
+.button_spare a b{ display:block; color:#fff; font-size:18px; padding:1px 0 0 70px; line-height:1; font-weight:normal; text-align:left;}
+/*2019-4-18 navaside*/
+.navaside{width:260px; background-color:#fff; position:relative; transition:.5s ease;}
+.navaside_switch{margin-left:-260px;}
+.navaside i{position:absolute; right:-35px; top:0; width:35px; height:50px; background:url(https://imobie-resource.com/en/support/img/asidebtnen.png); background-size:cover; cursor:pointer;}
+.navaside i:after{content:""; position:absolute; right:11px; top:20px; width:12px; height:19px; background:url(https://imobie-resource.com/en/support/img/asidearrow.png); background-size:cover; transition:.2s .5s ease-in-out;}
+.navaside_switch i:after{transform:rotateY(180deg);}
+.navaside h4{font-size:16px; color:#fff; padding:12px 0 12px 10px; background-color:#2ba9e7;}
+.navaside ul{border-bottom:1px solid #ddd; border-right:1px solid #ddd; padding:0; transition:.5s;}
+.navaside h5{font-size:14px; font-weight:bold; color:#666; cursor:pointer; padding:15px 0 15px 10px; line-height:1;}
+.navaside h5:hover{background:#f5f7f9;}
+.navaside h5:after{content:"\e814"; font-family:"iconfont"; float:right; margin-right:5px;}
+.navaside li{display:block; font-size:12px; color:#676767; padding-left:22px; position:relative; height:0; overflow:hidden; transition:.5s;}
+.navaside li a{color:inherit;}
+.navaside li:before{content:""; position:absolute; left:12px; top:5px; width:5px; height:5px; border-radius:50%; background-color:#cdcdcd;}
+.navaside .tsel li{height:auto; margin:0 0 15px;}
+.navaside .tsel h5,.navaside .asel{color:#2ba9e7; background:none;}
+.navaside .asel:before{background-color:#2ba9e7;}
+.navaside .tsel h5:after{content:"\e812";}
+@media screen and (max-width: 568px){
+	.button_spare{ text-align:center;}
+}

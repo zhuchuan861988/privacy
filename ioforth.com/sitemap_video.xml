@@ -12,7 +12,7 @@
 
   <url>
        <loc>https://www.ioforth.com/filmforth/guide.htm</loc>
-       <lastmod>2021-01-10T15:28:50+00:00</lastmod>
+       <lastmod>2021-02-08T14:12:28+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <video:video>
@@ -24,7 +24,7 @@
   </url>
   <url>
        <loc>https://www.ioforth.com/video-editor/video-editor-transitions.htm</loc>
-       <lastmod>2021-01-07T14:50:54+00:00</lastmod>
+       <lastmod>2021-02-09T12:45:20+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
        <video:video>
@@ -35,8 +35,20 @@
        </video:video>
   </url>
   <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-speed-up-a-video.htm</loc>
+       <lastmod>2021-02-05T01:47:51+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/LoJgW_DStv0/2.jpg</video:thumbnail_loc> 
+         <video:title>How to Speed up A Video on Windows 10</video:title>
+         <video:description>We teach you how to speed up a video on windows 10 in this comprehensive tutorial article so that you can easily speed up your video as you need.</video:description>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/embed/LoJgW_DStv0</video:player_loc>
+       </video:video>
+  </url>
+  <url>
        <loc>https://www.ioforth.com/video-editor/the-greatest-meme-maker-on-windows.htm</loc>
-       <lastmod>2020-12-24T04:03:28+00:00</lastmod>
+       <lastmod>2021-02-03T15:49:35+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.5120</priority>
        <video:video>
@@ -44,6 +56,30 @@
          <video:title>Some Nice Meme Makers in Windows 10</video:title>
          <video:description>Here listed several great meme generators in Windows 10. You can keep on reading and find the most suitable tool to make a meme easily.</video:description>
          <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/watch?v=-5x5OXfe9KY</video:player_loc>
+       </video:video>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/how-to-trim-videos-on-windows.htm</loc>
+       <lastmod>2021-02-05T01:47:51+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/OmSAyNXZVJc/2.jpg</video:thumbnail_loc> 
+         <video:title>How to Trim Videos on Windows 10</video:title>
+         <video:description>In this article, a clear and easy-to-get tutorial on how to trim videos on Windows 10 effectively is presenting in detail. You can definitely get how to complete video trimmed on Windows 10 that doesn&apos;t require any video editing knowledge.</video:description>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/embed/OmSAyNXZVJc</video:player_loc>
+       </video:video>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/youtube-videos/how-to-change-background-on-youtube-channel-on-phone.htm</loc>
+       <lastmod>2021-02-03T15:55:47+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/EWbjEAdSSKs/2.jpg</video:thumbnail_loc> 
+         <video:title>How to Change Background on YouTube Channel on Phone</video:title>
+         <video:description>In this post, you will find out how to change background on YouTube channel on phone step by step. Also, you can get an easy-to-use video editor to help you make YouTube video better.</video:description>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/embed/EWbjEAdSSKs</video:player_loc>
        </video:video>
   </url>
 </urlset>
