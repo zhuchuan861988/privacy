@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
+
+  <url>
+       <loc>https://www.ioforth.com/filmforth/guide.htm</loc>
+       <lastmod>2020-11-19T16:17:54+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/XmVdSW4swkA/2.jpg</video:thumbnail_loc> 
+         <video:title>FilmForth Oneline Guide - How to Use FilmForth</video:title>
+         <video:description>FilmForth online guide provides the detailed instruction about the features of video editing. And you can get whatever you want while you are making movies with FilmForth.</video:description>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/embed/XmVdSW4swkA</video:player_loc>
+       </video:video>
+  </url>
+  <url>
+       <loc>https://www.ioforth.com/video-editor/the-greatest-meme-maker-on-windows.htm</loc>
+       <lastmod>2020-11-21T10:33:50+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+       <video:video>
+         <video:thumbnail_loc>https://i.ytimg.com/vi/-5x5OXfe9KY/2.jpg</video:thumbnail_loc> 
+         <video:title>Some Nice Meme Makers in Windows 10</video:title>
+         <video:description>Here listed several great meme generators in Windows 10. You can keep on reading and find the most suitable tool to make a meme easily.</video:description>
+         <video:player_loc allow_embed="yes" autoplay="ap=1">https://www.youtube.com/watch?v=-5x5OXfe9KY</video:player_loc>
+       </video:video>
+  </url>
+</urlset>
