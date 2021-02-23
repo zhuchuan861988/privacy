@@ -28,7 +28,11 @@ table{border-collapse:0; border-spacing:0;}
 .langauthor a:last-child,.langauthor .uptime a{ border: none;}
 .uptime i{ font-style: normal;}
 .uptime a:hover{ text-decoration:none;}
-
+h2{ margin:20px 0; padding: 10px 0;; font-size: 30px; border-bottom: 1px solid #ccc;}
+h3{ margin:0 0 15px 0; font-size: 28px; color: #000;}
+h4{ margin:0 0 15px 0; font-size:24px; line-height:1.6; color:#000;}
+h5{ margin:0 0 15px 0; font-size:20px; line-height:1.6; color:#000;}
+h6{ margin:0 0 15px 0; font-size:16px; line-height:1.6; color:#000;}
 .wrap_middle img{ height:auto; vertical-align: middle;}
 .wrap_middle>h1{margin:30px 0; font-size:40px; color: #1a1a1a; font-weight:bold;}
 .wrap_middle>h2{ margin:20px 0; padding: 10px 0;; font-size: 30px; border-bottom: 1px solid #ccc;}
