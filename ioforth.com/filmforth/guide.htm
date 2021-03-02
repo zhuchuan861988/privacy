@@ -68,7 +68,7 @@
                 <div class="guide_lf_secl guide_lf_secl3">
                 	<h4 class="guide_btnh" data-id="3">Adding Picture, Video and Color Clip<a href="#adding"></a></h4>
                     <div class="guide_lfo">
-                    	<a class="guide_sdbtn guide_sdbtn7" href="#addingpav">Adding Pictures and Video</a>
+                    	<a class="guide_sdbtn guide_sdbtn7" href="#addingpav">Adding Picture or Video</a>
                         <a class="guide_sdbtn guide_sdbtn8" href="#edit">Editing Video or Image Objects</a>
                         <a class="guide_sdbtn guide_sdbtn27" href="#addcolor">Adding Color Clip</a>
                         <a class="guide_sdbtn guide_sdbtn9" href="#transitions">Using Transitions</a>
@@ -102,6 +102,11 @@
                 	<h4 class="guide_btnh" data-id="7">Exporting Videos<a href="#exporting"></a></h4>
                     <div class="guide_lfo">
                     	<a class="guide_sdbtn guide_sdbtn19" href="#exportingvideo">Exporting Your Video</a>
+                    </div>
+                </div>
+                <div class="guide_lf_secl guide_lf_secl10">
+                	<h4 class="guide_btnh" data-id="10">Adjusting Watermarks<a href="#exporting"></a></h4>
+                    <div class="guide_lfo">
                         <a class="guide_sdbtn guide_sdbtn20" href="#exportingadjust">Adjusting Watermarks</a>
                     </div>
                 </div>
@@ -275,23 +280,23 @@
         	<a id="quicktools" class="parts part25"></a>
             <h2>Quick Tools</h2>
         	<p>Video objects are becoming a key factor in conveying your thoughts or feelings. Sometimes, you may search for quick and useful tools to edit your work. For your convenience, we locate quick tools at the upper right corner of the Home page. With quick tools, you can create and edit videos easily and quickly.</p>
-            <div class="guide_img">
-            	<img src="https://www.ioforth.com/img/guide9-1.png">
-            </div>
         	<a id="rotatevideo"></a>
         	<h4>Rotate Video</h4>
             <p>There are two types —Rotate and Flip. Rotate will pivot active video objects 90 degrees with each click. Flip allows users to flip objects vertically or horizontally. </p>
+            <div class="guide_img">
+            	<img src="https://www.ioforth.com/img/guide9-1.png">
+            </div>
             <p>1. Click the Rotate Video icon at the upper right of the Home Page.</p>
             <p>2. Choose the “Select a Video File” and add a video object in FilmForth.</p>
             <p>3. If you want to use the rotate effect, click the [Rotate Left] or [Rotate Right] icon to shift the object 90 degrees per click. If you want to use the flip effect, click the [Flip Horizontal] or [Flip Vertical] to change the horizontal or vertical orientation.</p>
             <p>4. Confirm it and click the blue [Save] button at the bottom side of the Rotate Video Screen.</p>
             <p>5. Choose the video quality and frame rate as you desired.</p>
-            <div class="guide_img">
-            	<img src="https://www.ioforth.com/img/guide9-2.png">
-            </div>
             <a id="trimvideo" class="parts part26"></a>
             <h4>Trim Video</h4>
             <p>When recording a video, you’ll likely end up having more footage than you need, so for your video to look on point, you’ll need to do some post-production and cut the unnecessary parts. </p>
+            <div class="guide_img">
+            	<img src="https://www.ioforth.com/img/guide9-2.png">
+            </div>
             <p>1. Click the Trim Video icon at the upper right of the Home Page. </p>
             <p>2. Choose the “Select a Video File” and add a video object in FilmForth.</p>
             <p>3. Drag the white slider bar to control the start and end times of individual video objects. Or you use the Set Start and Set End button to trim your video. Move the yellow playhead to the position the video should begin and click <b>[Set Start]</b> to reposition the beginning of the object. Move the yellow playhead to the position that you want to stop and click <b>[Set End]</b> to reposition the end of the object. </p>
@@ -336,7 +341,7 @@
             </div>
             <p class="mtp10">Table 3 - Supported File Types</p>
             <a id="addingpav"></a>
-            <h4>Adding Pictures and Video</h4>
+            <h4>Adding Picture or Video</h4>
             <p>Pictures and videos are the key components of videos you will create in FilmForth. Adding them from existing files is simple.</p>
             <p>1. Open the project to add pictures or videos in FilmForth.</p>
             <p>2. Click the Add Object [+] button to the right on the Timeline display. A <b>Windows Open</b> screen will appear.</p>
@@ -715,9 +720,11 @@ will add up to the duration of the original object. Simply position the red time
             <p>8. <b>[Optional]</b> Click <b>[Show in Folder]</b> to open Windows Explorer at the location of the file.</p>
             <p>9. <b>[Optional]</b> Double-click the file to check that the playback has been generated successfully.</p>
             <p>10. Click the <b>[Close]</b> button to close the Export Confirmation screen.</p>
+        </div>
+
+        <div class="guide_type guide_type10">
             <a id="exportingadjust" class="parts part20"></a>
-            
-            <h4>Removing a Watermark</h4>
+            <h2>Adjusting Watermarks</h2>
             <p>By default, you can find the words “Created with FilmForth” on the bottom left when exporting your video objects. </p>
             <div class="guide_img">
             	<img src="https://www.ioforth.com/img/guide7-5.jpg">
@@ -737,6 +744,7 @@ will add up to the duration of the original object. Simply position the red time
             <p>9. <b>[Optional]</b> Double-click the file to check that the playback has been generated successfully.</p>
             <p>10. Click the <b>[Close]</b> button to close the Export Confirmation screen.</p>
         </div>
+        
     </div>
 </div>
 
@@ -872,7 +880,7 @@ var scroll_height = document.body.scrollTop + document.documentElement.scrollTop
 			$(".guide_lf_secl7,.guide_sdbtn19").addClass("checked");
 		}if(scroll_height > part20) {
 			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
-			$(".guide_lf_secl7,.guide_sdbtn20").addClass("checked");
+			$(".guide_lf_secl10,.guide_sdbtn20").addClass("checked");
 		}
 	}
 	

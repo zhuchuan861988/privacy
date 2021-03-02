@@ -1,0 +1,51 @@
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+.pw1000{ max-width:1000px; width:92%; margin-left:auto; margin-right:auto;}
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+.hide{ display:none;}
+
+.faqti h1{font-weight: 800; font-size: 48px; line-height: 1.6; color: #000000; text-align:center; margin:40px auto;}
+.faqbox{ max-width:1000px; margin:20px auto; width:92%;}
+.faqbox-liy{ margin-top:20px;}
+.faqbox-tit{ padding:17px 40px 17px 20px; border:1px solid #F0F1FD; cursor:pointer;}
+.faqbox-tit h4{ font-size:16px; line-height:1.6; font-weight:800; color:#000; position:relative;}
+.faqbox-tit h4:after{content: "+"; position:absolute; right:-20px; top:calc(50% - 20px); bottom:0; z-index:5; display:block; color:#000; font-size:26px; transition:all linear 0.1s; -webkit-transition:all linear 0.1s; -moz-transition:all linear 0.1s; -o-transition:all linear 0.1s; -ms-transition:all linear 0.1s;}
+.faqbox-artic{background: #F9F9F9; border: 1px solid #F0F1FD; box-sizing: border-box; border-radius: 2px; padding:10px 20px 20px; display:none;}
+.faqbox-artic h4{ font-size:16px; color:#333; font-weight:600; margin-top:20px;}
+.faqbox-artic p{ font-size:16px; line-height:1.5; color:#666666; font-weight:400; margin-top:10px;}
+.faqbox-artic p a{ font-size:inherit; color:#536dfe;}
+.faqbox-artic table { border: 1px solid #E9E9E9; margin-top: 20px;}
+.faqbox-artic table tr td{font-size: 14px; color: #000; line-height: 1.5;padding: 8px; border-right: 1px solid #E9E9E9; border-bottom: 1px solid #E9E9E9; cursor: pointer;}
+.faqbox-liy.checked .faqbox-tit{ background:#F0F1FD;}
+.faqbox-liy.checked .faqbox-tit h4:after{ transform:rotate(45deg); right: -23px;}
+.faqbox-liy.checked .faqbox-artic{ display:block;}
+.faqmore a{ width:160px; height:40px; color:#536DFE; font-size:14px; line-height:40px; text-align:center; font-weight:700; display:block; margin:20px auto; border:1px solid #536DFE; border-radius:2px;}
+
+
+
+.faq_contact{width:100%; height:480px; position:relative; overflow:hidden; z-index:1; background:url(../faq/img/faqcontact.jpg) #f9f9f9 top center no-repeat; background-size:cover;}
+.faq_conans{ text-align:center; margin-top:90px;}
+.faq_conans h2{ font-size:36px; line-height:1.6; color: #000; font-weight: 800;}
+.faq_conans p{ font-size:20px; line-height:1.6; color: #000; font-weight: 400; max-width:490px; margin:4px auto 0; text-align:center;}
+.faq_tact{ width:172px; height:60px; background:#536DFE; line-height:60px; text-align:center; font-weight: 800; font-size: 20px; color: #FFFFFF; display:block; text-decoration:none; margin:20px auto 0; transition:all linear 0.3s; -webkit-transition:all linear 0.3s; -moz-transition:all linear 0.3s; -o-transition:all linear 0.3s; -ms-transition:all linear 0.3s;}
+.faq_tact:hover{ color:#fff; text-decoration:none; transform:translateY(-5px);}
+
+@media screen and (max-width: 1440px){
+	
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+@media screen and (max-width: 680px){
+
+} 
+@media screen and (max-width: 568px){
+.faqti h1{ font-size:32px;}
+.faq_conans h2{ font-size:28px;}
+.faq_contact{ height:auto; padding-bottom:50px; background:#fff;}
+.faq_conans{ margin-top:50px;}
+} 
+@media screen and (max-width: 325px){
+
+} 
