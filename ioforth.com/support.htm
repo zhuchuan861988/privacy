@@ -14,8 +14,9 @@
   gtag('js', new Date());
   gtag('config', 'UA-161445442-1');</script>
 <link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
-<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/support.css">
-<link rel="stylesheet" type="text/css" href="font/font.css">
+<link rel="stylesheet" type="text/css" href="css/support.css">
+<link rel="preload" href="/font/font.css" as="style">
+<link rel="stylesheet" type="text/css" href="/font/font.css">
 <script src="https://www.ioforth.com/js/analy.js"></script>
 </head>
 <body>
@@ -57,6 +58,14 @@
                     <p>General tips for FilmForth</p>
                 </div>
                 <a href="https://www.ioforth.com/filmforth/guide.htm"></a>
+            </div>
+            <div class="support_resourlink">
+            	<img src="img/support_faqs.png">
+                <div class="support_resourtext">
+                	<h5>FilmForth FAQ</h5>
+                    <p>Answers for Common Questions</p>
+                </div>
+                <a href="https://www.ioforth.com/faq/filmforth-faqs.htm"></a>
             </div>
         </div>
     </div>
@@ -113,8 +122,25 @@
    <div id="cse-search-results"></div>
    <div class="serch_results"><iframe id="gcsec" height="1000px" src="googlesearch_iframe.htm"; frameborder=0; style="border:none;"></iframe></div>
 </div>
-<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
-<script id=ze-snippet src="https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9c3-025e10a10428"></script>
+<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script>
+<script type="text/javascript">
+if(ismobile() == "FALSE"){
+	var zdassets = document.createElement("script");
+	zdassets.type = "text/javascript";
+	zdassets.src = "https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9c3-025e10a10428";
+	zdassets.id = "ze-snippet";
+	document.body.appendChild(zdassets);
+	
+	
+	window.zESettings = {
+	    webWidget: {
+	       chat: {
+	           connectOnPageLoad: false        
+	       }
+	   }
+	};
+}
+</script>
 <script type="text/javascript">
 $(document).ready(function(){
 		function getpara(name) {
@@ -128,9 +154,6 @@ $(document).ready(function(){
 }
 var seach_val=getpara("q");
 $(".support_value").val(seach_val);
-
-
-
 		$(document).keypress(function(e) {
         	if(e.which == 13) {
    			jQuery(".ggsearch").click();

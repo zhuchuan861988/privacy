@@ -29,7 +29,6 @@
 		<meta name="twitter:site" content="@ioforth" />
 		<meta name="twitter:title" content="<?php echo $metatitle;?>" />
 		<meta name="twitter:description" content="<?php echo $metadescription;?>" />
-		<meta name="twitter:image" content="<?php echo $metaimg;?>" />
 		<!-- end of twitter:card -->
 		<!-- facebook:ogp -->
 		<meta property="fb:app_id" content="1903292629882596" />
@@ -37,12 +36,10 @@
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="<?php echo $metatitle;?>" />
 		<meta property="og:description" content="<?php echo $metadescription;?>" />
-		<meta property="og:image" content="<?php echo $metaimg;?>" />
 		<!-- end of facebook:ogp -->
 
 		<meta itemprop="name" content="<?php echo $metatitle;?>">
 		<meta itemprop="description" content="<?php echo $metadescription;?>">
-		<meta itemprop="image" content="<?php echo $metaimg;?>">
 		<?php
 		}?>	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,6 +55,8 @@
         <link rel=icon href="https://www.ioforth.com/img/icon.png" sizes=32x32>
 		<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css" />
 		<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/article.css" />
+        <link rel="preload" href="/font/font.css" as="style">
+		<link rel="stylesheet" type="text/css" href="/font/font.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161445442-1"></script> 
 <script>window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

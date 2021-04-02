@@ -14,8 +14,9 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-161445442-1');</script>
-<link rel="stylesheet" type="text/css" href="css/common.css">
-<link rel="stylesheet" type="text/css" href="css/homepage.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/homepage.css">
+<link rel="preload" href="/font/font.css" as="style">
 <link rel="stylesheet" type="text/css" href="/font/font.css">
 <script src="https://www.ioforth.com/js/analy.js"></script>
 </head>
@@ -189,8 +190,25 @@
 
 
 <footer class="inforfoot"></footer>
-<script type="text/javascript" src="js/jquery.common.js"></script> 
-<script id=ze-snippet src="https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9c3-025e10a10428"></script>
+<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
+<script type="text/javascript">
+if(ismobile() == "FALSE"){
+	var zdassets = document.createElement("script");
+	zdassets.type = "text/javascript";
+	zdassets.src = "https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9c3-025e10a10428";
+	zdassets.id = "ze-snippet";
+	document.body.appendChild(zdassets);
+	
+	
+	window.zESettings = {
+	    webWidget: {
+	       chat: {
+	           connectOnPageLoad: false        
+	       }
+	   }
+	};
+}
+</script>
 <script type="text/javascript">
 //banner slider
 var idxhome =0,

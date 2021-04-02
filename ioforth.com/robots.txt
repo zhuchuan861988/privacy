@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*.php?
+
+Sitemap: https://www.ioforth.com/sitemap.xml

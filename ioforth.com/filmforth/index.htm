@@ -13,13 +13,15 @@
   gtag('js', new Date());
   gtag('config', 'UA-161445442-1');</script>
 <link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
-<link rel="preload" href="/font/font.css" as="style">
 <link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/filmpage.css">
-<link rel="stylesheet" type="text/css" href="../font/font.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/flpublic.css">
+<link rel="preload" href="/font/font.css" as="style">
+<link rel="stylesheet" type="text/css" href="/font/font.css">
 <script src="https://www.ioforth.com/js/analy.js"></script>
 </head>
 <body>
 <header class="zoom infheader indexheader"></header>
+<div class="sptnavbar"><div class="pw1200 zoom sptbar"> <a href="https://www.ioforth.com/filmforth/" class="sptbar_logo sptfilm_logo" target="_blank">FilmForth</a><ul><li><a href="https://www.ioforth.com/filmforth/" target="_blank">Overview</a></li><li><a href="https://www.ioforth.com/filmforth/guide.htm" target="_blank">Guide</a></li><li><a href="https://www.ioforth.com/filmforth/reviews.htm" target="_blank">Review</a></li><li><a href="https://www.ioforth.com/filmforth/specs.htm" target="_blank">Tech Specs</a></li><li class="sptbar_dlmic"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank"><img src="https://www.ioforth.com/img/microsoft.png"></a></li><li class="sptbar_dlfree"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank">Free Download</a></li></ul></div></div>
 <div class="filmhome_banner">
 	<div class="pw1200 filmhome_bancnt">
     	<div class="filmhome_bantext">
@@ -147,6 +149,7 @@
           <p>FilmForth keeps working on providing a professional and easy-to-use video editor for everyone.</p>
           <font>4.7</font>
           <img src="img/filmhome_start1.png">
+		  <a href="https://www.ioforth.com/filmforth/reviews.htm" class="reviewslink">Read More Reviews <img src="img/idxarrow.png" class="valm"></a>
      </div>
      <div class="filmhome_sec4_slide">
      	<div class="filmhome_sec4_scroll">
@@ -200,8 +203,29 @@
 </div>
 <footer class="inforfoot"></footer>
 
-<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
-<script type="text/javascript">
+<script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script>
+<script type="text/javascript" src="https://www.ioforth.com/js/flpublic.js"></script> 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "FilmForth",
+  "image": "https://www.ioforth.com/video-editor/img/filmicon.png",
+  "description": "FilmForth is a free, powerful and easy-to-use video editor on Windows 10 that can release your creativity on each movie you make. Get it and make story now.",
+    "brand": {
+    "@type": "Thing",
+    "name": "FilmForth"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating":"1",
+    "reviewCount": "55"
+  }
+}
+</script> 
+<script type="text/javascript">	
 var idx = 0,
 	ct = 0,
 	len = $(".filmhome_slitext").length,

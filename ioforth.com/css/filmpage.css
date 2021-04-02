@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{
 .filmhome_sec4_title{ text-align:center;}
 .filmhome_sec4_title h2{ font-size:36px; line-height:1.2; font-weight:bold;}
 .filmhome_sec4_title p{ font-size:28px; line-height:1.5; margin-top:15px;}
-.filmhome_sec4_title>font{ margin-top:10px; font-size:64px; font-weight:bold; line-height:1.2; display:block;}
+.filmhome_sec4_title>font{ margin-top:10px; font-size:64px; font-weight:bold; line-height:1.2; display:inline-block; margin:0 30px;}
 .filmhome_sec4_title>img{ max-width:339px; width:60%; margin:5px auto 0;}
 
 
@@ -136,6 +136,9 @@ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{
 .filmhome_foot .filmhome_btn{ text-align:center; position:relative; z-index:2;}
 .filmhome_foot .filmhome_img{ max-width:100%; width:100%; margin:-110px auto 0; position:relative; z-index:1; display:block;}
 
+.reviewslink{ width: 260px; height: 60px; line-height: 60px; text-align: center; border-radius: 5px; display: block; margin: 20px auto 0; background: #536DFE; color: #fff; font-size: 18px; font-weight: 600; text-transform:uppercase; letter-spacing: 1px;}
+.reviewslink img{ display: inline-block; vertical-align: middle; margin: -3px 0 0 8px; transition: transform linear 0.3s; -webkit-transition: transform linear 0.3s; -moz-transition: transform linear 0.3s; -o-transition: transform linear 0.3s;}
+.reviewslink:hover img{ transform: translateX(5px);}
 @media screen and (max-width: 1330px){
 .filmhome_sec3_text ul li{ width:170px;}
 .filmhome_sec4_scroll{ height:320px;}

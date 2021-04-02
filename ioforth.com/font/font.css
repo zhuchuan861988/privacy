@@ -10,6 +10,7 @@
 }
 @font-face {
 	font-family: 'Open Sans';
+	font-display:swap;
 	src:url('opensans-light-webfont.eot');
 	src:url('opensans-light-webfont.eot#iefix') format('embedded-opentype'),
 		url('opensans-light-webfont.ttf') format('truetype'),
@@ -20,6 +21,7 @@
 }
 @font-face {
 	font-family: 'Open Sans';
+	font-display:swap;
 	src:url('opensans-regular-webfont.eot');
 	src:url('opensans-regular-webfont.eot#iefix') format('embedded-opentype'),
 		url('opensans-regular-webfont.ttf') format('truetype'),

@@ -94,11 +94,11 @@ img{border:0;}
 .infheader ul li.infsearch a img{ width:100%; display:block;}
 .infguide>a{ padding-bottom:10px;}
 .infguide .infgdcnt{ width:140px; height:0; position:absolute; left:-33px; top:30px; z-index:10; box-shadow:0 0 10px rgba(0,0,0,0.2); transition:height linear 0.2s; overflow:hidden;}
-.infguide .infgdcnt a{ width:100%; height:48px; display:block; line-height:48px; text-align:center; background:#fff;}
-.infguide .infgdcnt a.infgda1{ border-radius:2px 2px 0 0; border-bottom:1px solid rgba(0,0,0,0.1);}
-.infguide .infgdcnt a.infgda2{ border-radius:0 0 2px 2px;}
+.infguide .infgdcnt a{ width:100%; height:48px; display:block; line-height:48px; text-align:center; background:#fff; border-bottom:1px solid rgba(0,0,0,0.1);}
+.infguide .infgdcnt a.infgda1{ border-radius:2px 2px 0 0;}
+.infguide .infgdcnt a.infgda2{ border-radius:0 0 2px 2px; border-bottom:none;}
 .infguide .infgdcnt a:hover{ background:#E9E9E9; font-weight:bold;}
-.infguide:hover .infgdcnt{ height:96px;}
+.infguide:hover .infgdcnt{ height:144px;}
 
 
 footer{ width:100%; background:#212121; overflow:hidden;}

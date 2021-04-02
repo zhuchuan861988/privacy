@@ -7,18 +7,22 @@
 <meta name="keywords" content="filmforth online guide, filmforth, movie maker, video editor">
 <link rel=icon href="https://www.ioforth.com/img/icon.png" sizes=32x32>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="canonical"  href="https://www.ioforth.com/filmforth/guide.htm">
+<link rel="canonical" href="https://www.ioforth.com/filmforth/guide.htm">
+<link rel="preload" href="/font/font.css" as="style">
+<link rel="stylesheet" type="text/css" href="/font/font.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/guide.css">
+<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/flpublic.css">
+<script src="https://www.ioforth.com/js/analy.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161445442-1"></script> 
 <script>window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-161445442-1');</script>
-<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/common.css">
-<link rel="stylesheet" type="text/css" href="https://www.ioforth.com/css/guide.css">
-<script src="https://www.ioforth.com/js/analy.js"></script>
 </head>
 <body>
 <header class="zoom infheader"></header>
+<div class="sptnavbar"><div class="pw1200 zoom sptbar"> <a href="https://www.ioforth.com/filmforth/" class="sptbar_logo sptfilm_logo" target="_blank">FilmForth</a><ul><li><a href="https://www.ioforth.com/filmforth/" target="_blank">Overview</a></li><li><a href="https://www.ioforth.com/filmforth/guide.htm" target="_blank">Guide</a></li><li><a href="https://www.ioforth.com/filmforth/reviews.htm" target="_blank">Review</a></li><li><a href="https://www.ioforth.com/filmforth/specs.htm" target="_blank">Tech Specs</a></li><li class="sptbar_dlmic"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank"><img src="https://www.ioforth.com/img/microsoft.png"></a></li><li class="sptbar_dlfree"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank">Free Download</a></li></ul></div></div>
 <div class="guide_banner">
 	<div class="pw1200 guide_bancnt">
     	<div class="guide_bantext">
@@ -63,6 +67,8 @@
                     <div class="guide_lfo">
                     	<a class="guide_sdbtn guide_sdbtn25" href="#rotatevideo">Rotate Video</a>
                     	<a class="guide_sdbtn guide_sdbtn26" href="#trimvideo">Trim Video</a>
+                        <a class="guide_sdbtn guide_sdbtn28" href="#extractmp3">Extract MP3</a>
+                    	<a class="guide_sdbtn guide_sdbtn29" href="#stabilize">Stabilize Video</a>
                     </div>
                 </div>
                 <div class="guide_lf_secl guide_lf_secl3">
@@ -142,7 +148,7 @@
         	<h2>Getting Started</h2>
             <a id="video"></a>
             <h4>FilmForth Quick Start Video</h4>
-            <div class="guide_iframe"><iframe src="https://www.youtube.com/embed/XmVdSW4swkA" width="100%" height="478" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="guide_iframe"><iframe class='lozad' data-src="https://www.youtube.com/embed/XmVdSW4swkA" width="100%" height="478" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             <p>This is an overview of the basic editing workflow in FilmForth. </p>
             <p>FilmForth is quite easy to use. It's the best free video editor for all movie makers who want their work without a watermark.</p>
 			<p>The TIMELINE in this video</p>
@@ -167,59 +173,26 @@
             <h4>Creating Your Project</h4>
             <p>1. Launch FilmForth. This can be done from the Start menu after installation by clicking the FilmForth program icon alphabetically listed under ‘F’. The Home screen will appear.</p>
             <p>2. Here you can see the <b>[New Project]</b> button and <b>[Open a Project]</b>. Click the <b>[New Project]</b>.</p>
+            <p>3. Click Add VIDEO/PHOTO CLIPS to add your projects.</p>
+            <p>4. Click “ALL PROJECTS” to exit. The “Save the Project Before Closing” Screen will appear.</p>
             <div class="guide_img">
-            	<img src="https://www.ioforth.com/img/guide2-1.png">
-                <span>The Create a New Project screen.</span>
+            	<img src="https://www.ioforth.com/img/guide1-2.jpg">
             </div>
-            <p>3.Change the pre-filled values as desired.</p>
+            <p>5. Change the pre-filled values as desired.</p>
             <div class="guide_table">
                 <table width="100%" cellpadding="0" cellspacing="0" class="guide_table_serial clo3">
                 	<tr>
-                    	<td class="checked" data-text='Define the project name. It will be pre-filled with "Project_YYYY_MM_DD_hh_mm_ss" where Y = year, M = month, D = day, h = hour, m = minute, and s = seconds.'>Project Name</td>
-                        <td data-text="Refers to the width and height of the video as a ratio. It can be selected from the pre-defined list.">Aspect Ratio</td>
-                        <td data-text='The place where the project files will be stored. It will default to "C:\Users\user\Videos\FilmForth\Projects\Project_YYYY_MM_DD_hh _mm_ss".'>Path</td>
+                    	<td style="width:50% !important" class="checked" data-text='Project Name: Define the project name. It will be pre-filled with "Project_X” where X=number. '>Project Name</td>
+                        <td style="width:50% !important" data-text='Path: The place where the project files will be stored. It will default to "C:\Users\user\Videos\FilmForth\Projects\Project_YYYY_MM_DD_hh _mm_ss".'>Path</td>
                     </tr>
                 </table>
                 <div class="guide_table_text">
-                	<p>Define the project name. It will be pre-filled with "Project_YYYY_MM_DD_hh_mm_ss" where Y = year, M = month, D = day, h = hour, m = minute, and s = seconds.</p>
+                	<p>Project Name: Define the project name. It will be pre-filled with "Project_X” where X=number. </p>
                 </div>
             </div>
-            <p class="mtp10">Table 1 - Create New Project screen fields.</p>
-            <div class="guide_sidebar">
-            	<h4>SIDEBAR: Change the Project Path</h4>
-                <p>If you save the working files (such as images and videos) in another area of the computer, you may want to change the project path.</p>
-                <p>a. Click the set of three dots to the right of the Path field and you will see the Select Folder screen.</p>
-                <p>b. Locate the folder where you would like to save your files. You can use the <b>[New Folder]</b> link on the menu bar, or right-click, select <b>[New] > [Folder]</b> from the pop-up screen to create a new folder in any location. Rename the folder as needed.</p>
-                <p>c. Click the selected folder and highlight it. This will populate the Folder field.</p>
-                <p>d. Click the <b>[Select Folder]</b> button to add the folder to the Path. The path field will be updated to the new path.</p>
-            </div>
-            <p>4. Click <b>[Create]</b> to open your new project in FilmForth.</p>
-            <div class="guide_img">
-            	<img src="https://www.ioforth.com/img/guide2-2.jpg">
-                <span>The FilmForth Project Screen</span>
-            </div>
-            <div class="guide_table">
-                <table width="100%" cellpadding="0" cellspacing="0" class="guide_table_serial clo5">
-                	<tr>
-                    	<td class="checked" data-text="Brings the user back to the Home screen.">Back</td>
-                        <td data-text="Shows the video preview for the current project at the time indicated by the Timeline Indicator.">Preview Panel</td>
-                        <td data-text="Opens the Contact Support screen.">Contact Support</td>
-                        <td data-text="Allows users to control playback.">Playback Controls</td>
-                        <td data-text="Timeline magnification. Allows users to zoom into and out of Timeline Display.">Timeline Zoom</td>
-                    </tr>
-                    <tr>
-                        <td data-text="Shows the exact time of the state of the Preview Panel. Click-and-drag to change the preview.">Timeline Indicator</td>
-                        <td data-text="Click to add objects to the current project.">Add Object</td>
-                        <td data-text="Displays objects that have been imported or created for in the current project.">Timeline Display</td>
-                        <td data-text="Displays clickable context-sensitive tools based on the editing state.">Toolbar</td>
-                        <td data-text="Begins export of the current project to an MP4 video file.">Export</td>
-                    </tr>
-                </table>
-                <div class="guide_table_text">
-                	<p>Brings the user back to the Home screen.</p>
-                </div>
-            </div>
-            <p class="mtp10">Table 2 - Project Screen overview</p>
+            <p>6. Click the Save button if you want to save your projects.</p>
+            <p>7. <b>[Optional]</b> Click Discard to remove your projects in FilmForth.</p>
+
             <a id="contact" class="parts part6"></a>
             <h4>Contact Support</h4>
             <p><b>There are three methods for you to choose to contact support if you have any questions.</b></p>
@@ -279,17 +252,17 @@
         <div class="guide_type guide_type9">
         	<a id="quicktools" class="parts part25"></a>
             <h2>Quick Tools</h2>
-        	<p>Video objects are becoming a key factor in conveying your thoughts or feelings. Sometimes, you may search for quick and useful tools to edit your work. For your convenience, we locate quick tools at the upper right corner of the Home page. With quick tools, you can create and edit videos easily and quickly.</p>
+        	<p>Video objects are becoming a key factor in conveying your thoughts or feelings. Sometimes, you may search for quick and useful tools to edit your work. For your convenience, we locate quick tools on the left panel of the Home page. With quick tools, you can create and edit videos easily and quickly.</p>
         	<a id="rotatevideo"></a>
         	<h4>Rotate Video</h4>
             <p>There are two types —Rotate and Flip. Rotate will pivot active video objects 90 degrees with each click. Flip allows users to flip objects vertically or horizontally. </p>
             <div class="guide_img">
             	<img src="https://www.ioforth.com/img/guide9-1.png">
             </div>
-            <p>1. Click the Rotate Video icon at the upper right of the Home Page.</p>
+            <p>1. Click the Rotate Video icon on the left panel of the Home Page.</p>
             <p>2. Choose the “Select a Video File” and add a video object in FilmForth.</p>
             <p>3. If you want to use the rotate effect, click the [Rotate Left] or [Rotate Right] icon to shift the object 90 degrees per click. If you want to use the flip effect, click the [Flip Horizontal] or [Flip Vertical] to change the horizontal or vertical orientation.</p>
-            <p>4. Confirm it and click the blue [Save] button at the bottom side of the Rotate Video Screen.</p>
+            <p>4. Confirm it and click the blue [Save Video] button at the bottom side of the Rotate Video Screen.</p>
             <p>5. Choose the video quality and frame rate as you desired.</p>
             <a id="trimvideo" class="parts part26"></a>
             <h4>Trim Video</h4>
@@ -297,11 +270,31 @@
             <div class="guide_img">
             	<img src="https://www.ioforth.com/img/guide9-2.png">
             </div>
-            <p>1. Click the Trim Video icon at the upper right of the Home Page. </p>
+            <p>1. Click the Trim Video icon on the left panel of the Home Page. </p>
             <p>2. Choose the “Select a Video File” and add a video object in FilmForth.</p>
             <p>3. Drag the white slider bar to control the start and end times of individual video objects. Or you use the Set Start and Set End button to trim your video. Move the yellow playhead to the position the video should begin and click <b>[Set Start]</b> to reposition the beginning of the object. Move the yellow playhead to the position that you want to stop and click <b>[Set End]</b> to reposition the end of the object. </p>
-            <p>4. Confirm it and click the blue [Save] button at the bottom side of the Trim Video Screen.</p>
+            <p>4. Confirm it and click the blue [Save Video] button at the bottom side of the Trim Video Screen.</p>
             <p>5. Choose the video quality and frame rate as you desired.</p>
+            <a id="extractmp3" class="parts part28"></a>
+            <h4>Extract MP3</h4>
+            <p>Some of you may want to extract the music from the video clip. Quick tools enable you to extract and you can listen to the music whenever you want. </p>
+            <p>1. Click the Extract MP3 icon on the left panel of the Home Page.</p>
+            <p>2. Choose the “Select a Video File” and open a video object with music in FilmForth.</p>
+            <p>3. Define the output file name as you desired.</p>
+            <p>4. Locate the folder where you would like to save your files. </p>
+            <p>5. Confirm it and click the blue [Save] button at the bottom side of the Extract MP3 Screen.</p>
+            <p>6. <b>[Optional]</b> Click <b>[Show in Folder]</b> to open Windows Explorer at the location of the file.</p>
+            <p>7. Click the <b>[Close]</b> button to close the Extract MP3 Screen.</p>
+            <a id="stabilize" class="parts part29"></a>
+            <h4>Stabilize Video</h4>
+            <p>Shake in the video is inevitable. Many people want to get it fixed or stabilized. See and learn how to use the built-in video stabilizer to make shaky footage or video smoother.</p>
+            <p>1. Click the Stabilize Video icon on the left panel of the Home Page.</p>
+            <p>2. Choose the “Select a Video File” and open it in FilmForth. </p>
+            <p>3. Define the output file name as you desired.</p>
+            <p>4. Locate the folder where you would like to save your files. </p>
+            <p>5. Click the blue [Save] button in the Stabilize Video Screen.</p>
+            <p>6. <b>[Optional]</b> Click <b>[Show in Folder]</b> to open Windows Explorer at the location of the file.</p>
+            <p>7. Click the <b>[Close]</b> button to close the Stabilize Video Screen.</p>
         </div>
         <div class="guide_type guide_type3">
         	<a id="adding" class="parts part7"></a>
@@ -376,7 +369,7 @@
                     <tr>
                     	<td data-text="Rotate will pivot active video objects 90 degrees with each click. Click on the object to be rotated in the timeline to activate it and then click the <b>[Rotate]</b> icon to shift the object 90 degrees per click.">Rotate</td>
                         <td data-text="Flip allows users to flip objects horizontally. Click on the object in the timeline to activate it and then click <b>[Flip]</b> to change the horizontal orientation.">Flip</td>
-                        <td colspan="2" data-text="Cropping is the removal of unwanted outer areas from your video objects. Click the object that you want to change in the timeline and then click <b>[Crop]</b> to remove unwanted areas. Or you can just click the “Edit”＞“Crop” button to remove it.">Crop</td>
+                        <td colspan="2" data-text="This feature allows you to personalize the video projects. There are two types — Crop and Pan & Zoom. Cropping is the removal of unwanted outer areas from your video objects. Click the object that you want to change in the timeline and then click <b>[Crop & Motion]</b> to remove unwanted areas. Or you can just click the “Edit”＞“Crop & Motion” button to remove it. The“Pan” tool is flexible and enables you to move left or right. Zooming is using the lens to get closer or wider from the subject. Click the object that you want to adjust and click <b>[Crop & Motion]</b> to personalize the Start and End frames on the screen.">Crop & Motion</td>
                     </tr>
                     <tr>
                     	<td data-text="This function allows you to make adjustments to the original object. It enables you to change the size, angle, direction and so on. Click the object that you want to adjust in the timeline and then click <b>[Transform]</b> to change it as you desired. Or you can just click the “Edit”＞“Transform” button to make adjustments.">Transform</td>
@@ -406,7 +399,7 @@
                     </tr>
                     <tr>
                     	<td data-text="Flip allows users to flip objects horizontally. Click on the object in the timeline to activate it and then click <b>[Flip]</b> to change the horizontal orientation.">Flip</td>
-                        <td data-text="Cropping is the removal of unwanted outer areas from your image objects. Click the object that you want to change in the timeline and then click <b>[Crop]</b> to remove unwanted areas. Or you can just click the “Edit”＞“Crop” button to remove it.">Crop</td>
+                        <td data-text="This feature allows you to personalize the video projects. There are two types — Crop and Pan & Zoom. Cropping is the removal of unwanted outer areas from your video objects. Click the object that you want to change in the timeline and then click <b>[Crop & Motion]</b> to remove unwanted areas. Or you can just click the “Edit”＞“Crop & Motion” button to remove it. The“Pan” tool is flexible and enables you to move left or right. Zooming is using the lens to get closer or wider from the subject. Click the object that you want to adjust and click <b>[Crop & Motion]</b> to personalize the Start and End frames on the screen. ">Crop & Motion</td>
                         <td data-text="This function allows you to make adjustments to the original object. It enables you to change the size, angle, direction and so on. Click the object that you want to adjust in the timeline and then click <b>[Transform]</b> to change it as you desired. Or you can just click the “Edit”＞“Transform” button to make adjustments.">Transform</td>
                     </tr>
                     <tr>
@@ -751,8 +744,12 @@ will add up to the duration of the original object. Simply position the red time
 <footer class="inforfoot"></footer>
 
 <script type="text/javascript" src="https://www.ioforth.com/js/jquery.common.js"></script> 
-<script id=ze-snippet src="https://static.zdassets.com/ekr/snippet.js?key=a4a0060f-736d-4421-b9transitions-025e10a10428"></script>
+<script type="text/javascript" src="https://www.ioforth.com/js/flpublic.js"></script>
+<script type="text/javascript" src="https://www.ioforth.com/js/lozad.js"></script>
 <script type="text/javascript">
+const observer = lozad();
+observer.observe();
+
 $(".guide_table_serial tr td").click(function(){
 	$(this).parents(".guide_table_serial").find("td").removeClass("checked");
 	$(this).addClass("checked");
@@ -761,7 +758,8 @@ $(".guide_table_serial tr td").click(function(){
 })
 
 
-$(".guide_lf_secl>h4").click(function(){
+if(ismobile() == "FALSE"){
+	$(".guide_lf_secl>h4").click(function(){
 	$(this).parents(".guide_lf_secl").toggleClass("checked").siblings("").removeClass("checked");	
 	var i=$(this).attr("data-id");
 	$(".guide_sdbtn").removeClass("checked");
@@ -801,7 +799,9 @@ var scroll_height = document.body.scrollTop + document.documentElement.scrollTop
 	part23 = $(".part23").offset().top - 250,
 	part25 = $(".part25").offset().top - 250,
 	part26 = $(".part26").offset().top - 250,
-	part27 = $(".part27").offset().top - 250;
+	part27 = $(".part27").offset().top - 250,
+	part28 = $(".part28").offset().top - 250,
+	part29 = $(".part29").offset().top - 250;
 	function scorll_an() {
 		if(scroll_height > part1) {
 			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
@@ -836,6 +836,12 @@ var scroll_height = document.body.scrollTop + document.documentElement.scrollTop
 		}if(scroll_height > part26) {
 			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
 			$(".guide_lf_secl9,.guide_sdbtn26").addClass("checked");
+		}if(scroll_height > part28) {
+			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
+			$(".guide_lf_secl9,.guide_sdbtn28").addClass("checked");
+		}if(scroll_height > part29) {
+			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
+			$(".guide_lf_secl9,.guide_sdbtn29").addClass("checked");
 		}if(scroll_height > part7) {
 			$(".guide_lf_secl,.guide_sdbtn").removeClass("checked");
 			$(".guide_lf_secl3,.guide_sdbtn7").addClass("checked");
@@ -887,7 +893,8 @@ var scroll_height = document.body.scrollTop + document.documentElement.scrollTop
 	$(window).scroll(function() {
 		scroll_height = document.body.scrollTop + document.documentElement.scrollTop;
 		scorll_an();
-	});
+	});	
+}
 
 </script>
 

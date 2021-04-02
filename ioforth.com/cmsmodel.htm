@@ -34,7 +34,9 @@
           <dt><a href="#b3">tip样式</a></dt>
           <dt><a href="#ba3">note样式4</a></dt>
           <dt><a href="#b5">购买按钮</a></dt>
+		  <dt><a href="#b6">插入mp4,webm视频</a></dt>
           <dt><a href="#b18">插入iframe视频</a></dt>
+		  
         </dl>
       </li>
       <li><a href="#d1">分设备特殊样式</a>
@@ -335,7 +337,24 @@
 <p class="cmsbutton"></p>
 </div>
 
-
+<a id="b6"></a>
+<div class="cmscon_mid_con">
+<h2 class="cmscon_mid_con_h2">插入mp4,webm视频</h2>
+<div data-class="iof_video" class="cmscon_mid_con_area cmscon_mid_con_area_view">
+  <div class="iof_video">{{tip6}}</div>
+</div>
+<textarea ng-model="tip6" class="cmscon_mid_con_area"></textarea>
+<textarea class="codediv"><div class="wp-caption alignnone">
+	<video class="iof_video" autoplay loop muted playsinline>  
+	  <source src="https://www.ioforth.com/video-editor/img/transitions-video.webm" type="video/webm">  
+	  <source src="https://www.ioforth.com/video-editor/img/transitions-video.mp4" type="video/mp4">  
+	</video>
+	<p class="wp-caption-text">Transition Effects Example</p>
+</div>
+</textarea>
+<p class="cmsredp"></p>
+<p class="cmsbutton"></p>
+</div>
 
 <a id="b18"></a>
 <div class="cmscon_mid_con">
@@ -344,7 +363,7 @@
   <div class="iframe_video">{{tip18}}</div>
 </div>
 <textarea ng-model="tip18" class="cmscon_mid_con_area"></textarea>
-<textarea class="codediv"><div class="iframe_video"><iframe width="100%" height="100%" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Gsv7adm8rAk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
+<textarea class="codediv"><div class="iframe_video"><iframe width="100%" height="100%" class="lozad" data-src="https://www.youtube.com/embed/Gsv7adm8rAk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></div>
 </textarea>
 <p class="cmsredp"></p>
 <p class="cmsbutton"></p>

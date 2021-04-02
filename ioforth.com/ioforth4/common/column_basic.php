@@ -4,7 +4,7 @@ include_once($path."/common/proinfo.php");
 ?>
 <?php
   	if($pro == "filmforth"){
-		echo '<div class="sptnavbar"><div class="pw1200 zoom sptbar"> <a href="https://www.ioforth.com/filmforth/" class="sptbar_logo sptfilm_logo" target="_blank">FilmForth</a><ul><li><a href="https://www.ioforth.com/filmforth/" target="_blank">Overview</a></li><li><a href="https://www.ioforth.com/filmforth/guide.htm" target="_blank">Guide</a></li><li class="sptbar_dlmic"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank"><img src="https://www.ioforth.com/img/microsoft.png"></a></li><li class="sptbar_dlfree"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank">Free Download</a></li></ul></div></div>';
+		echo '<div class="sptnavbar"><div class="pw1200 zoom sptbar"> <a href="https://www.ioforth.com/filmforth/" class="sptbar_logo sptfilm_logo" target="_blank">FilmForth</a><ul><li><a href="https://www.ioforth.com/filmforth/" target="_blank">Overview</a></li><li><a href="https://www.ioforth.com/filmforth/guide.htm" target="_blank">Guide</a></li><li><a href="https://www.ioforth.com/filmforth/reviews.htm" target="_blank">Review</a></li><li><a href="https://www.ioforth.com/filmforth/specs.htm" target="_blank">Tech Specs</a></li><li class="sptbar_dlmic"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank"><img src="https://www.ioforth.com/img/microsoft.png"></a></li><li class="sptbar_dlfree"><a href="https://www.microsoft.com/store/apps/9nsf023x0mqs?cid=articledownload" target="_blank">Free Download</a></li></ul></div></div>';
 	}
   ?> 
 <div class="pw1200 zoom column_container">
@@ -15,7 +15,7 @@ include_once($path."/common/proinfo.php");
 			?>
             <a class="tw_share" href="https://twitter.com/intent/tweet?&url=<?php echo $crturl."&text=".$metatitle; ?>" target="_blank"></a>
             <a class="fb_share" href="https://www.facebook.com/sharer.php?u=<?php echo $crturl; ?>" target="_blank"></a>
-            <a class="in_share" href="http://www.linkedin.com/shareArticle?spm= &mini=true&url=<?php echo $crturl; ?>" target="_blank"></a>
+            <a class="in_share" href="https://www.linkedin.com/shareArticle?spm=&mini=true&url=<?php echo $crturl; ?>" target="_blank"></a>
          </div>
 			<div id="descrumbs" class="descrumbs">
 				<ul>

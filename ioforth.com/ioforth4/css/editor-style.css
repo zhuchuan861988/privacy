@@ -54,6 +54,7 @@ h6{ margin:0 0 15px 0; font-size:16px; line-height:1.6; color:#000;}
 .wrap_middle stong{ font-weight: bolder; font-size:inherit; color:inherit;}
 
 .wp-caption,.support_guide_img{ max-width:100%; margin:20px auto; text-align: center;}
+.iof_video{max-width:100%; margin:20px auto 0; text-align: center;}
 .wp-caption img,.support_guide_img img{height: auto; border-radius: 5px; border: 1px solid #e9e9e9;}
 .wp-caption p,.support_guide_img p{margin: 5px auto 0 auto; font-size: 12px; color: #4c4c4c; font-style: italic;}
 .alignright{ float: right; margin:0 0 0 10px;}
@@ -72,27 +73,8 @@ h6{ margin:0 0 15px 0; font-size:16px; line-height:1.6; color:#000;}
 .green_border p:first-child{ margin-top: 0;}
 .green_border p{ margin-top: 5px !important; line-height: 1.5;word-wrap: break-word;}
 .step_style{padding: 5px 10px;margin-right: 10px;display: inline-block;background-color: #e8e8e8; border: none;}
-.navaside{width:260px; position:fixed; left:-260px; top:110px; background-color:#fff; z-index:101; transition:.5s ease; box-shadow: 0 0 15px rgba(29,29,29,.1);}
-.navaside_switch{left:0;}
-.navaside .asdarop{position:absolute; right:-155px; top:0; width:35px; height:50px; background:url(https://www.ioforth.com/img/asidebtnen.png); background-size:cover; border:none; cursor:pointer;}
-.asdarop:before{content:"Article Menu"; position:absolute; right:35px; top:0; font-size:16px; color:#fff; padding:12px 0; width:120px; text-align:center; background-color:#2ba9e7;}
-.asdarop:after{content:""; position:absolute; right:11px; top:20px; width:12px; height:19px; background:url(https://www.ioforth.com/img/asidearrow.png); background-size:cover; transform:rotateY(180deg); transition:transform .2s .5s ease-in-out;}
-.navaside_switch .asdarop{right:-35px;}
-.navaside_switch .asdarop:after{transform:rotateY(360deg);}
-.navaside_switch .asdarop:before{display:none;}
-.navaside div{border-bottom:1px solid #ddd; border-right:1px solid #ddd;}
-.navaside h4{font-size:16px; color:#fff; padding:12px 0 12px 10px; background-color:#2ba9e7;}
-.navaside ul{margin:0; padding:0 0 5px; display:none}
-.navaside h5{font-size:14px; font-weight:bold; color:#666; cursor:pointer; padding:15px 0 15px 10px; line-height:1;}
-.navaside h5:hover{background:#f5f7f9;}
-.navaside h5:after{content:"\e814"; font-family:"iconfont"; float:right; margin-right:5px; font-size:12px;}
-.navaside ul li{line-height:1; font-size:12px; color:#676767; margin:0; padding:6px 0 8px 22px; position:relative;}
-.navaside ul li a{color:inherit;}
-.navaside ul li:before{content:""; position:absolute; left:12px; top:12px; width:5px; height:5px; border-radius:50%; background-color:#cdcdcd;}
-.navaside .tsel h5,.navaside .asel{color:#2ba9e7; background:none;}
-.navaside .asel:before{background-color:#2ba9e7;}
-.navaside .tsel h5:after{content:"\e812";}
-.navaside .dsbul{ display:block; padding:10px 0;}
+.navaside{background-color:#8b9cfa;}
+
 .rsclm_recommen{ border:1px solid #eeeeee; padding:20px 35px; margin-top:20px;}
 .rsclm_recommen h2{ font-size:30px; color:#333333; font-weight:bold;}
 .rsclm_recommen ul{ margin:20px auto 0;}

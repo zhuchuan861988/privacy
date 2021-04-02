@@ -1,0 +1,53 @@
+/* CSS Document */
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer,input,textarea{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+input,textarea{ outline:none;}
+/*specs style**/
+.specs_block{ width:1200px; margin-left:auto; margin-right:auto;}
+.specs_cont h1{ font-size:44px; font-weight:800;}
+.specs_block h2{ font-size:32px; margin-top:40px; font-weight:700;}
+.specs_system{ margin-top:15px;}
+.specs_system_cnt{ width:580px; background: #F2F3F4; border: 1px solid #E5E5E5; box-sizing: border-box; padding:8px 20px 10px;}
+.specs_system h4{ font-size:18px; line-height:1.6; font-weight:400;}
+.specs_system p{ font-size:14px; line-height:1.33; font-weight:400; margin-top:4px; color:#666666; margin-bottom:12px;}
+.specs_system ul li{ font-size:15px; line-height:1.6; margin-bottom:8px;}
+.specs_suppt{ width:380px; margin:12px 25px 0 0; display:inline-block; vertical-align:top;}
+.specs_suppt:last-child{ margin-right:0;}
+.specs_suppt h5{ font-size:18px; line-height:1.6; font-weight:400; margin-top:10px;}
+.specs_suppt p{ max-width:260px; font-size:15px; line-height:1.6; font-weight:400; margin-top:5px;}
+.spces_language{ margin-top:18px;}
+.spces_language li{ width:200px; float:left; font-size:15px; font-weight:400; line-height:1.6; margin-bottom:6px;}
+.spces_language li img{ vertical-align:middle; margin-right:10px;}
+.specs_updatect{ margin-top:35px; margin-bottom:40px;e}
+.specs_updatect:after{content:""; width:1px; height:100%; display:block; position:absolute; top:0; left:80px; border-left:2px dashed #c2cbff;}
+.specs_updatetime{ width:36px; position:relative; font-size:14px; color:#666666;}
+.specs_updatetime span{font-weight:700; font-size:15px; color:#000;}
+.specs_updatetime:after{ content:""; width:8px; height:8px; display:block; border-radius:8px; background:#fff; border:2px solid #536dfe; position:absolute; top:9px; left:75px; z-index:5;}
+.specs_updatect ul{ width:1070px; width:calc(100% - 121px); margin:0 0 20px 85px;}
+.specs_updatect ul b{ font-size:16px; line-height:1.6; color:#000; margin-bottom:5px; display:block;}
+.specs_updatect li{ list-style:decimal; font-size:15px; line-height:1.6; margin-left:20px; font-weight:400;}
+@media screen and (max-width: 1230px){
+.specs_cont{width:92%; margin:0 auto;}
+.specs_block{ width:100%;}
+.specs_system_cnt{ width:calc(50% - 10px);}
+.specs_suppt,.specs_suppt:last-child{ width:30%; margin:20px 1%;}
+.specs_cont h1{ font-size:30px;} 
+.specs_block h2{ font-size:26px;}
+}
+
+
+
+
+@media screen and (max-width: 568px){
+.specs_system_cnt{ width:100%; float:none; margin:0 0 20px 0;}	
+.specs_suppt, .specs_suppt:last-child{ width:100%;}
+.specs_suppt p{ max-width:100%;}
+.specs_updatect:after{ left:10px;}
+.specs_updatetime{ position:relative; float:none; left:30px;}
+.specs_updatetime span{ font-weight:normal; font-size:14px; color:#666;}
+.specs_updatetime:after{left:-25px; top:5px;}
+.specs_updatect ul{ width:auto; float:none; margin-left:30px;}
+.specs_updatect ul b{ margin-top:3px;}
+.spces_language li{ width:120px;}
+.specs_cont h1{ font-size:30px;} 
+.specs_block h2{ font-size:22px;}
+}

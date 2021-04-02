@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{
 
 
 .guide_box{ margin-bottom:50px;}
-.guide_left{ width:296px; position: sticky; position: -webkit-sticky; margin-top:20px; top:20px; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}
+.guide_left{ width:296px; position: sticky; position: -webkit-sticky; margin-top:70px; top:70px; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}
 /*.guide_lf_fix{ width:296px; position:fixed; top:20px; z-index:10; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}
 .guide_lf_sticky{width:296px; position: sticky; position: -webkit-sticky; top:20px; z-index:10; background: #FFFFFF; box-shadow: 0px 0px 20px #E5E5E5; border-radius: 4px;}*/
 
@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{
 .guide_lfo>a.checked:before{ width:4px; height:100%; background:#536DFE; position:absolute; left:0; top:0; z-index:2; content:""; }
 
 
-.guide_right{ width:calc(100% - 350px); margin-top:20px;}
+.guide_right{ width:calc(100% - 350px); margin-top:50px;}
 .guide_type{ margin-top:40px;}
 .guide_type:first-child{ margin-top:0;}
 /*.guide_type{ display:none;}

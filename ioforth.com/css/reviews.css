@@ -1,0 +1,77 @@
+/* CSS Document */
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer,input,textarea{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+input,textarea{ outline:none;}
+.pw1140{ max-width:1140px; width:92%; margin-left:auto; margin-right:auto;}
+.reviews_banner{ width:100%; height:420px; background:url(../filmforth/img/banner-review.jpg) #343855 top center no-repeat; position:relative; z-index:1; background-size:cover; overflow:hidden;}
+.reviews_bantext{max-width:980px; width:100%; position:absolute; left:0; right: 0; top:45%; margin: auto; transform:translateY(-50%); z-index:3;}
+.reviews_bantext h1{ font-size: 48px; font-weight: 800; line-height: 1.6; color: #fff;}
+.reviews_star{ width: 291px; height: 40px; margin-top: 20px;  position:relative; }
+.reviews_star:before{ width: 98%; height: 100%; background:url(../filmforth/img/review-group-starbig.png) top left no-repeat; position: absolute; left: 0; top: 0; z-index: 3; content: ""; display: block; opacity: 1;}
+.reviews_star:after{ width: 100%; height: 100%; background:url(../filmforth/img/review-group-starbig.png) top left no-repeat; position: absolute; left: 0; top: 0; z-index: 1; content: ""; display: block; opacity: 0.6;}
+.reviews_bantext p{ font-size: 28px; line-height: 1.8; color: #fff; margin-top: 10px;}
+.reviews_bantext p b{font-weight: 700;}
+.reviews_bantext .reviews_write{ width: 220px; height: 60px; margin-top: 20px; text-align: center; display: block; text-decoration: none; font-size: 20px; line-height: 60px; font-weight: 800; color: #fff; background: #536DFE;}
+
+.reviews_tellus{ margin-top: 20px; display: none;}
+.reviews_informa>h2{ font-size: 36px; line-height: 1.6; font-weight: 800;}
+.reviews_informa>p{ font-size: 16px; line-height: 1.5; font-weight: 400; color: #666666;}
+.reviews_project{ margin-top: 25px;}
+.reviews_project p{ font-size: 15px; line-height: 24px; margin-bottom: 8px; font-weight: 400; color: #000;}
+.reviews_starsmall span{ width:26px; height:26px; background-size:cover; display:inline-block; vertical-align:middle; background:url(../filmforth/img/review-starsma.png) top center no-repeat; margin:0 4px; cursor:pointer; opacity: 0.4;}
+.reviews_starsmall span.on,.reviews_starsmall span.hover{ opacity: 1;}
+.reviews_starsmall span.nohover{ opacity: 0.4;}
+
+.review_requst{ width: calc(100% - 26px); padding: 4px 12px; border: 1px solid #EEEEEE; border-radius: 2px; background: #FFFFFF; font-size: 15px; line-height: 1.6; color: #000; resize: none;}
+.review_requst_captcha{ width: 100px; display: inline-block; vertical-align: middle; margin-right: 10px;}
+.review_captcha{ display: inline-block; vertical-align: middle;}
+textarea.review_requst{ min-height:100px;}
+.review_requst::placeholder{color: #979797;}
+.reviews_project{ position: relative;}
+.request_sta,.reviews_submitips{ font-size:14px; color:red; margin-top: 3px; position: absolute; display: none; }
+.request_sta{left: 0; bottom: -20px;}
+.reviews_submitips{left: 0; right: 0; bottom: -22px; margin: auto;}
+.reviews_operating{ text-align: center; margin-top:20px; position: relative;}
+.reviews_operating a{ display: inline-block; vertical-align: middle; margin: 20px 8px 0;}
+.reviews_operating a.reviews_close{ width: 180px; height: 60px; background: #FFFFFF; border: 1px solid #536DFE; text-align: center; line-height: 60px; text-decoration: none; font-size: 20px; font-weight: 800; color: #536DFE;}
+.reviews_operating a.reviews_submit{ width: 180px; height: 60px; background: #536DFE; border: 1px solid #536DFE; text-align: center; line-height: 60px; text-decoration: none; font-size: 20px; font-weight: 800; color: #ffffff;}
+.reviews_reminder{ width: calc(100% - 40px); padding: 20px; margin-top: 30px; background: #F2F3F4; font-size: 15px; line-height: 1.5; font-weight: 400;}
+.reviews_reminder a{ font-size: inherit; color: #536dfe;}
+
+.reviews_comments{ margin-top: 20px;}
+.reviews_comment{border-spacing: 0; width:100%;}
+.reviews_comment tr td{ padding: 20px 0; border-bottom: 1px solid #EEEEEE;}
+.reviews_score{ width: 170px; margin-right: 40px; display: inline-block; vertical-align: middle;}
+.reviews_score time{ font-size: 14px; line-height: 1.6;}
+.reviews_smallstar{ width: 167px; height: 24px; margin-top: 16px;  position:relative; }
+.reviews_smallstar:before{ width: 100%; height: 100%; background:url(../filmforth/img/review-group-starsma.png) top left no-repeat; position: absolute; left: 0; top: 0; z-index: 3; content: ""; display: block; opacity: 1;}
+.reviews_smallstar.star5:before{ width: 100%;}
+.reviews_smallstar.star4:before{ width: 80%;}
+.reviews_smallstar.star3:before{ width:60%;}
+.reviews_smallstar:after{ width: 100%; height: 100%; background:url(../filmforth/img/review-group-starsma.png) top left no-repeat; position: absolute; left: 0; top: 0; z-index: 1; content: ""; display: block; opacity: 0.4;}
+.reviews_comcont{ width: calc(100% - 215px); display: inline-block; vertical-align: middle;}
+.reviews_comcont h5{ font-size: 18px; color: #000; font-weight: 800; line-height: 1.6;}
+.reviews_comcont p{ font-size: 14px; color: #000; font-weight: 400; line-height: 1.6; margin-top: 12px;}
+.reviews_comcont em{ font-size: 14px; color: #666; font-weight: 400; line-height: 1.6; margin-top: 20px; font-style: italic; display: block;}
+
+.pageination{ padding: 20px 0 40px; text-align: center;}
+.pageination>span{ cursor: pointer; padding: 5px 8px 5px 7px; border: 1px solid #F2F3F4; border-radius: 2px; font-size: 12px; margin: 0 6px;}
+.pageination>span.nocursor{ cursor: inherit; color: #bac0c7;}
+.pageination a{cursor: pointer; margin: 0 6px; font-size: 12px; color: #252A48;}
+.pageination a.current{border-bottom:1px solid #536DFE; color:#536DFE;}
+
+@media screen and (max-width: 980px){
+.reviews_banner{ height: auto; padding-bottom: 50px; padding-top: 30px; background: #343855;}
+.reviews_bantext{ width: 92%; margin: 0 auto; position: relative; top: 0; bottom: 0; transform:translateY(0);}
+.reviews_bantext h1{ font-size: 36px;}
+}
+
+@media screen and (max-width: 630px){
+.reviews_score{ display: block; width: 100%; margin-right: 0;}
+.reviews_comcont{ width: 100%; margin-top: 20px;}
+.reviews_bantext h1,.reviews_informa>h2{ font-size: 28px;}
+.reviews_operating a.reviews_close,.reviews_operating a.reviews_submit{ width: 120px; height: 40px; line-height: 40px; font-size: 16px;}
+}
+
+@media screen and (max-width: 568px){
+	
+}

@@ -10,7 +10,7 @@ include_once($path."/common/proinfo.php");
 			?>
             <a class="tw_share" href="https://twitter.com/intent/tweet?&url=<?php echo $crturl."&text=".$metatitle; ?>"></a>
             <a class="fb_share" href="https://www.facebook.com/sharer.php?u=<?php echo $crturl; ?>"></a>
-            <a class="in_share" href="http://www.linkedin.com/shareArticle?spm= &mini=true&url=<?php echo $crturl; ?>"></a>
+            <a class="in_share" href="https://www.linkedin.com/shareArticle?spm=&mini=true&url=<?php echo $crturl; ?>"></a>
          </div>
 			<div id="descrumbs" class="descrumbs">
 				<ul>

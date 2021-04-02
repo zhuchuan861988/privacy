@@ -34,6 +34,7 @@ h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer{
 .about_mides h4{ font-size:30px;}
 .about_bantext p{ font-size:28px;}
 .about_milef,.about_mirig{ width:100%; padding:0; border-right:none;}
+.about_type{ background:none;}
 }
 
 @media screen and (max-width: 680px){

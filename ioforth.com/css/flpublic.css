@@ -1,0 +1,19 @@
+/* CSS Document */
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,th,p,a,li,td,div,footer,input,textarea{font:normal 12px "Open Sans", "Lucida Sans Unicode", "Arial";color:#000;}
+input,textarea{ outline:none;}
+.pw1200{ max-width:1200px; width:92%; margin-left:auto; margin-right:auto;}
+.sptnavbar{ width:100%; height:0; line-height:60px; position:fixed; top:0; background:#fff; box-shadow:0 10px 30px rgba(0,0,0,0.1); z-index:10; transition:height linear 0.3s; -webkit-transition:height linear 0.3s; -moz-transition:height linear 0.3s; -o-transition:height linear 0.3s; -ms-transition:height linear 0.3s; overflow:hidden;}
+.sptnavbar.showed{ height:60px;}
+.sptnavbar a{ text-decoration:none; color:#333333; font-size:16px;}
+.sptnavbar a.sptbar_logo{ display:inline-block; vertical-align:middle; color:#333333; background:#fff; font-size:20px; position:relative; line-height:60px; font-size:20px; font-weight:bold;}
+.sptbar_logo:before{ width:35px; height:35px; content:""; display:inline-block; vertical-align:middle; margin:-3px 10px 0 0;}
+.sptfilm_logo:before{ background:url(https://www.ioforth.com/img/filmicon.png) top center no-repeat; background-size:cover; }
+.sptbar ul{ display:inline-block; vertical-align:middle; float:right;}
+.sptbar ul li{ display:inline-block; vertical-align:middle; line-height:60px; margin:0 10px;}
+.sptbar ul li a:hover{ color:#4194f1;}
+.sptbar ul li.sptbar_dlmic{width:110px; display:inline-block;}
+.sptbar ul li.sptbar_dlmic img{width:100%; height:40px; display:block;}
+.sptbar ul li.sptbar_dlfree a{height:40px; text-align:center; line-height:40px; font-size:16px; color:#fff; background-color:#6691FB; background:linear-gradient(to right,#6691FB,#5428ED); display:inline-block; padding:0 10px; text-decoration:none;}
+@media screen and (max-width: 980px){
+.spnavbar,.sptnavbar.showed{ display:none!important;}
+}
