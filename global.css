@@ -2362,6 +2362,9 @@ color:#f60
 	font-size: 20px;
 	line-height: 30px
 }
+.home .banner .text-zone p.subtitle.isusubtitle {
+	color: #fff
+}
 .home .banner .text-zone .img-box {
 	position: absolute;
 	width: 856px;
@@ -2407,6 +2410,10 @@ color:#f60
 }
 .home .banner .text-zone .btn-zone .btn-jadegreen:hover {
 	background-color: #44fa62
+}
+.home .banner .text-zone.text-zoneisu {
+	max-width: 500px;
+	margin-top: 200px
 }
 .home h2.center-title {
 	position: relative;

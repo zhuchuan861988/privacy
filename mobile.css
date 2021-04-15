@@ -636,6 +636,9 @@ opacity:1
 	right: inherit;
 	top: inherit
 }
+.home .banner .text-zone.text-zoneisu {
+	margin-top: 0
+}
 .home .major-product {
 	padding-bottom: 50px;
 	height: auto;
