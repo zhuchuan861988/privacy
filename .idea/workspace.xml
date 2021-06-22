@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40dfeb1-7d57-40f0-83b7-e4fefd848ef2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ioforth.com/video-editor/best-gaming-video-editing-software.htm" beforeDir="false" afterPath="$PROJECT_DIR$/ioforth.com/video-editor/best-gaming-video-editing-software.htm" afterDir="false" />
-    </list>
+    <list default="true" id="e40dfeb1-7d57-40f0-83b7-e4fefd848ef2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +76,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624326664176">
